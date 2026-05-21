@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sortiment – Waffen-Bassing Mainz</title>
+  
+  <link rel="stylesheet" href="fonts.css">
+  <style>
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --green-dark:  #1a2e1a;
+      --green-mid:   #2d4a2d;
+      --green-accent:#4a7a4a;
+      --green-light: #6fa86f;
+      --cream:       #f5f0e8;
+      --cream-dark:  #ede6d8;
+      --white:       #ffffff;
+      --text-dark:   #1a1a1a;
+      --text-mid:    #4a4a4a;
+      --text-light:  #888;
+      --gold:        #b8953a;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--cream);
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+
+    /* ── NAV ─────────────────────────────────────── */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 100;
+      background: var(--green-dark);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .nav-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 40px;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .nav-logo img {
+      height: 42px;
+      filter: brightness(0) invert(1);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 36px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: rgba(255,255,255,0.65);
+      transition: color 0.2s;
+      font-weight: 500;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active { color: var(--white); }
+
+    .nav-links a.active {
+      border-bottom: 1px solid var(--green-light);
+      padding-bottom: 2px;
+    }
+
+    .nav-actions {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .nav-search {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 24px;
+      padding: 7px 16px;
+    }
+
+    .nav-search input {
+      background: none;
+      border: none;
+      outline: none;
+      color: #fff;
+      font-size: 13px;
+      font-family: 'Inter', sans-serif;
+      width: 160px;
+    }
+
+    .nav-search input::placeholder { color: rgba(255,255,255,0.4); }
+
+    .nav-search svg { color: rgba(255,255,255,0.5); flex-shrink: 0; }
+
+    .btn-shop {
+      background: var(--green-accent);
+      color: #fff;
+      text-decoration: none;
+      font-size: 12px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 9px 20px;
+      border-radius: 24px;
+      font-weight: 600;
+      transition: background 0.2s;
+    }
+
+    .btn-shop:hover { background: var(--green-light); }
+
+    /* ── HERO ────────────────────────────────────── */
+    .hero {
+      margin-top: 72px;
+      height: 420px;
+      position: relative;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+      background: var(--green-dark);
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        linear-gradient(to bottom, rgba(15,28,15,0.1) 0%, rgba(15,28,15,0.45) 100%),
+        url('wb_laden_hero.jpg') center/cover no-repeat;
+    }
+
+    /* fallback texture wenn Bild nicht lädt */
+    .hero-bg-fallback {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(135deg, #1a2e1a 0%, #2d4a2d 40%, #1a2e1a 100%);
+      opacity: 0;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 40px 60px;
+      width: 100%;
+    }
+
+    .hero-eyebrow {
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--green-light);
+      margin-bottom: 14px;
+      font-weight: 500;
+    }
+
+    .hero h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(36px, 5vw, 58px);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.1;
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+    }
+
+    .hero-sub {
+      font-size: 15px;
+      color: rgba(255,255,255,0.7);
+      max-width: 500px;
+      font-weight: 300;
+    }
+
+    /* ── BREADCRUMB ──────────────────────────────── */
+    .breadcrumb {
+      background: var(--white);
+      border-bottom: 1px solid var(--cream-dark);
+      padding: 14px 0;
+    }
+
+    .breadcrumb-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 40px;
+      font-size: 12px;
+      color: var(--text-light);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .breadcrumb a { color: var(--green-accent); text-decoration: none; }
+    .breadcrumb span { color: var(--text-light); }
+
+    /* ── MAIN ────────────────────────────────────── */
+    main {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 64px 40px 100px;
+    }
+
+    /* ── SECTION HEADER ──────────────────────────── */
+    .section-header {
+      text-align: center;
+      margin-bottom: 52px;
+    }
+
+    .section-label {
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--green-accent);
+      margin-bottom: 14px;
+      font-weight: 500;
+    }
+
+    .section-header h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(28px, 3vw, 40px);
+      font-weight: 600;
+      color: var(--green-dark);
+      line-height: 1.2;
+    }
+
+    .section-header p {
+      margin-top: 14px;
+      font-size: 15px;
+      color: var(--text-mid);
+      max-width: 580px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    /* ── CATEGORY GRID ───────────────────────────── */
+    .categories {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 24px;
+      margin-bottom: 80px;
+    }
+
+    .category-card {
+      background: var(--white);
+      border-radius: 16px;
+      overflow: hidden;
+      border: 1px solid var(--cream-dark);
+      cursor: pointer;
+      transition: transform 0.25s, box-shadow 0.25s;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .category-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 48px rgba(26,46,26,0.12);
+    }
+
+    .category-card:hover .card-icon-wrap {
+      background: var(--green-mid);
+    }
+
+    .card-icon-wrap {
+      height: 180px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .card-icon-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.4s ease;
+    }
+
+    .category-card:hover .card-icon-wrap img {
+      transform: scale(1.06);
+    }
+
+    .card-icon-wrap::after {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 60px;
+      background: linear-gradient(to top, rgba(0,0,0,0.45), transparent);
+      pointer-events: none;
+    }
+
+    .card-body {
+      padding: 22px 22px 26px;
+    }
+
+    .card-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 19px;
+      font-weight: 600;
+      color: var(--green-dark);
+      margin-bottom: 8px;
+    }
+
+    .card-desc {
+      font-size: 13px;
+      color: var(--text-mid);
+      line-height: 1.55;
+      margin-bottom: 16px;
+    }
+
+    .card-link {
+      font-size: 12px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--green-accent);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .card-link svg { transition: transform 0.2s; }
+    .category-card:hover .card-link svg { transform: translateX(4px); }
+
+    /* ── DIVIDER ─────────────────────────────────── */
+    .divider {
+      border: none;
+      margin: 64px 0;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .divider::before,
+    .divider::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--cream-dark);
+    }
+
+    .divider svg {
+      width: 36px;
+      height: auto;
+      flex-shrink: 0;
+      opacity: 0.5;
+    }
+
+    /* ── BRANDS ──────────────────────────────────── */
+    .brands-section { margin-bottom: 80px; }
+
+    .brands-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      margin-top: 40px;
+    }
+
+    .brand-pill {
+      background: var(--white);
+      border: 1px solid var(--cream-dark);
+      border-radius: 24px;
+      padding: 10px 20px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-mid);
+      transition: all 0.2s;
+      cursor: default;
+    }
+
+    .brand-pill:hover {
+      border-color: var(--green-accent);
+      color: var(--green-dark);
+      background: rgba(74,122,74,0.06);
+    }
+
+    /* ── LADEN-SECTION ───────────────────────────── */
+    .laden-section {
+      position: relative;
+      height: 560px;
+      overflow: hidden;
+      margin: 0;
+    }
+
+    .laden-section img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 30%;
+    }
+
+    .laden-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(
+        to right,
+        rgba(10, 22, 10, 0.58) 0%,
+        rgba(10, 22, 10, 0.4) 55%,
+        rgba(10, 22, 10, 0.1) 100%
+      );
+      display: flex;
+      align-items: center;
+    }
+
+    .laden-text {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 80px;
+      width: 100%;
+    }
+
+    .laden-text .section-label {
+      text-align: left;
+      color: var(--green-light);
+      margin-bottom: 16px;
+    }
+
+    .laden-text h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(30px, 3.5vw, 50px);
+      font-weight: 600;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 20px;
+      max-width: 520px;
+    }
+
+    .laden-text p {
+      font-size: 15px;
+      color: rgba(255,255,255,0.72);
+      max-width: 440px;
+      line-height: 1.7;
+      margin-bottom: 32px;
+      font-family: 'Inter', sans-serif;
+      font-weight: 300;
+    }
+
+    /* ── BERATUNGS-BANNER ────────────────────────── */
+    .beratung-banner {
+      background: var(--green-dark);
+      border-radius: 20px;
+      padding: 56px 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .beratung-banner::before {
+      content: '🦌';
+      position: absolute;
+      right: 200px;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 140px;
+      opacity: 0.06;
+      pointer-events: none;
+    }
+
+    .beratung-text { position: relative; }
+
+    .beratung-text .section-label { text-align: left; margin-bottom: 10px; }
+
+    .beratung-text h2 {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(24px, 2.5vw, 34px);
+      color: var(--white);
+      font-weight: 600;
+      line-height: 1.25;
+      margin-bottom: 14px;
+    }
+
+    .beratung-text p {
+      font-size: 14px;
+      color: rgba(255,255,255,0.65);
+      max-width: 480px;
+      line-height: 1.65;
+    }
+
+    .beratung-actions {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+
+    .btn-primary {
+      background: var(--green-accent);
+      color: #fff;
+      text-decoration: none;
+      font-size: 13px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 14px 28px;
+      border-radius: 32px;
+      font-weight: 600;
+      text-align: center;
+      transition: background 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-primary:hover { background: var(--green-light); }
+
+    .btn-outline {
+      background: transparent;
+      color: rgba(255,255,255,0.7);
+      text-decoration: none;
+      font-size: 13px;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 13px 28px;
+      border-radius: 32px;
+      font-weight: 500;
+      text-align: center;
+      border: 1px solid rgba(255,255,255,0.2);
+      transition: all 0.2s;
+      white-space: nowrap;
+    }
+
+    .btn-outline:hover {
+      border-color: rgba(255,255,255,0.5);
+      color: #fff;
+    }
+
+    /* ── FOOTER ──────────────────────────────────── */
+    footer {
+      background: var(--green-dark);
+      color: rgba(255,255,255,0.7);
+      padding: 60px 40px 32px;
+    }
+
+    .footer-inner {
+      max-width: 1280px;
+      margin: 0 auto;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      padding-bottom: 48px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      margin-bottom: 32px;
+    }
+
+    .footer-logo img {
+      height: 46px;
+      filter: brightness(0) invert(1);
+      margin-bottom: 20px;
+    }
+
+    .footer-logo p {
+      font-size: 13px;
+      line-height: 1.7;
+      color: rgba(255,255,255,0.5);
+    }
+
+    .footer-col h4 {
+      font-size: 11px;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--green-light);
+      margin-bottom: 18px;
+      font-weight: 600;
+    }
+
+    .footer-col ul { list-style: none; }
+    .footer-col li { margin-bottom: 10px; }
+    .footer-col a {
+      text-decoration: none;
+      font-size: 13px;
+      color: rgba(255,255,255,0.55);
+      transition: color 0.2s;
+    }
+    .footer-col a:hover { color: #fff; }
+
+    .footer-hours li {
+      font-size: 13px;
+      color: rgba(255,255,255,0.55);
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 8px;
+    }
+
+    .footer-hours .day { color: rgba(255,255,255,0.75); }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      color: rgba(255,255,255,0.3);
+    }
+  </style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a class="nav-logo" href="#">
+      <img src="wb-logo.svg" alt="Waffen-Bassing">
+    </a>
+    <ul class="nav-links">
+      <li><a href="#">Startseite</a></li>
+      <li><a href="#" class="active">Sortiment</a></li>
+      <li><a href="#">Werkstatt & Service</a></li>
+      <li><a href="#">Über uns</a></li>
+      <li><a href="#">Shop</a></li>
+    </ul>
+    <div class="nav-actions">
+      <div class="nav-search">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+        <input type="text" placeholder="Suche …">
+      </div>
+      <a href="#" class="btn-shop">Shop</a>
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-content">
+    <p class="hero-eyebrow">Ältestes Waffengeschäft in Mainz seit 1919</p>
+    <h1>Unser Sortiment</h1>
+    <p class="hero-sub">Von Jagdwaffen über Optik bis hin zu Messern und Munition — ausgewählt von Fachleuten, für Fachleute.</p>
+  </div>
+</section>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <div class="breadcrumb-inner">
+    <a href="#">Startseite</a>
+    <svg width="12" height="12" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></svg>
+    <span>Sortiment</span>
+  </div>
+</div>
+
+<!-- MAIN -->
+<main>
+
+  <!-- Kategorien -->
+  <div class="section-header">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.17 48.33" style="width:48px;height:auto;margin-bottom:16px;display:block;margin-left:auto;margin-right:auto;opacity:0.7;"><path fill="#4a7a4a" fill-rule="evenodd" d="M32.4,47.26c1.36-3.47,1.2-5.28,2-8a8.59,8.59,0,0,1,1.31-2.29A7.1,7.1,0,0,0,37,32.77a.74.74,0,0,1,.65-.86,9.28,9.28,0,0,0,5.18-3.53A6,6,0,0,0,44,25c-5.54.33-7.12,3.11-8.24,4.52L35,28.78a24.81,24.81,0,0,1,11.75-6.27c1.11-.24,2.22-.5,3.33-.72,3.52-.7,5.64-3,7.11-6.3a16.7,16.7,0,0,1-7.65,4.7c.74-.94,1.41-1.73,2-2.56A15.39,15.39,0,0,0,54,12.83c2.62-2.58,2.64-7.4,1.35-9.94,0,.21,0,.42.07.64a10.14,10.14,0,0,1-1,5.76A9.94,9.94,0,0,0,53,4.88,16.63,16.63,0,0,0,48.41,0c2.57,3,4.45,6.2,4,10.38C51,8.08,49.24,6.16,46.47,5.5c.17.12.35.23.52.36a9.61,9.61,0,0,1,4.09,5.56,4.27,4.27,0,0,1-.27,3A10.37,10.37,0,0,1,47,19.06a18.81,18.81,0,0,1-2.23,1c.76-2.84.45-5.23-1.43-7.28.18.53.37,1.06.53,1.59a5,5,0,0,1-1.15,5.11,44.79,44.79,0,0,1-4.47,3.83c.23-1.53.61-3-.24-4.54.29,4.11-4.92,9.5-9.36,9.27h0c-4.45.23-9.66-5.16-9.37-9.27-.85,1.53-.47,3-.24,4.54a47.16,47.16,0,0,1-4.47-3.83,5,5,0,0,1-1.15-5.11c.16-.53.36-1.06.53-1.59-1.88,2-2.18,4.44-1.42,7.28a19.78,19.78,0,0,1-2.24-1,10.37,10.37,0,0,1-3.86-4.6,4.33,4.33,0,0,1-.27-3,9.61,9.61,0,0,1,4.09-5.56c.17-.13.35-.24.53-.36-2.78.66-4.5,2.58-5.94,4.88C4.31,6.2,6.19,3,8.76,0A16.63,16.63,0,0,0,4.15,4.88,9.94,9.94,0,0,0,2.76,9.29a10.06,10.06,0,0,1-1-5.76l.06-.64C.53,5.43.55,10.25,3.18,12.83a15.16,15.16,0,0,0,2.45,4.8c.61.83,1.28,1.62,2,2.56A16.75,16.75,0,0,1,0,15.49c1.48,3.32,3.6,5.6,7.11,6.3,1.11.22,2.22.48,3.33.72a24.76,24.76,0,0,1,11.75,6.27l-.81.74c-1.12-1.41-2.7-4.19-8.24-4.52a6,6,0,0,0,1.17,3.38,9.32,9.32,0,0,0,5.18,3.53.74.74,0,0,1,.65.86,7.17,7.17,0,0,0,1.34,4.17,8.59,8.59,0,0,1,1.31,2.29c.79,2.75.62,4.56,2,8a1.22,1.22,0,0,0,.49.52,7.4,7.4,0,0,0,3.3.55,7.69,7.69,0,0,0,3.38-.57,1.15,1.15,0,0,0,.46-.5"/></svg>
+    <p class="section-label">Kategorien</p>
+    <h2>Was finden Sie bei uns?</h2>
+    <p>Jedes Produkt in unserem Sortiment ist handverlesen — mit über 100 Jahren Erfahrung wissen wir, worauf es ankommt.</p>
+  </div>
+
+  <div class="categories">
+
+    <a href="#" class="category-card">
+      <div class="card-icon-wrap">
+        <img src="img/jagd.jpg" alt="Jagdwaffen">
+      </div>
+      <div class="card-body">
+        <div class="card-title">Jagd</div>
+        <p class="card-desc">Büchsen, Flinten, Repetierer und alles für die Jagd — fachkundig beraten von erfahrenen Waidmännern.</p>
+        <span class="card-link">Entdecken <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </div>
+    </a>
+
+    <a href="#" class="category-card">
+      <div class="card-icon-wrap">
+        <img src="img/sport.jpg" alt="Sportschießen">
+      </div>
+      <div class="card-body">
+        <div class="card-title">Sport</div>
+        <p class="card-desc">Sportwaffen für Freizeitschützen und Wettkämpfer. Präzision und Zuverlässigkeit in jeder Preisklasse.</p>
+        <span class="card-link">Entdecken <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </div>
+    </a>
+
+    <a href="#" class="category-card">
+      <div class="card-icon-wrap">
+        <img src="img/optik.jpg" alt="Optik">
+      </div>
+      <div class="card-body">
+        <div class="card-title">Optik</div>
+        <p class="card-desc">Zielfernrohre, Ferngläser und Nachtsicht von Leica, Zeiss, Swarovski und weiteren Topmarken.</p>
+        <span class="card-link">Entdecken <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </div>
+    </a>
+
+    <a href="#" class="category-card">
+      <div class="card-icon-wrap">
+        <img src="img/messer.jpg" alt="Messer">
+      </div>
+      <div class="card-body">
+        <div class="card-title">Messer</div>
+        <p class="card-desc">Jagd-, Outdoor- und Taschenmesser in großer Auswahl — von klassisch bis modern, für jeden Einsatz.</p>
+        <span class="card-link">Entdecken <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </div>
+    </a>
+
+    <a href="#" class="category-card">
+      <div class="card-icon-wrap">
+        <img src="img/munition.jpg" alt="Munition">
+      </div>
+      <div class="card-body">
+        <div class="card-title">Munition</div>
+        <p class="card-desc">Breites Sortiment an Jagd- und Sportmunition — zuverlässig in jeder Situation, für jede Waffe.</p>
+        <span class="card-link">Entdecken <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </div>
+    </a>
+
+    <a href="#" class="category-card">
+      <div class="card-icon-wrap">
+        <img src="img/freie-waffen.jpg" alt="Freie Waffen">
+      </div>
+      <div class="card-body">
+        <div class="card-title">Freie Waffen</div>
+        <p class="card-desc">Gas-, Signal- und Schreckschusswaffen sowie Selbstschutz — legal ab 18 Jahren, fachgerecht beraten.</p>
+        <span class="card-link">Entdecken <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </div>
+    </a>
+
+    <a href="#" class="category-card">
+      <div class="card-icon-wrap">
+        <img src="img/wiederladen.jpg" alt="Wiederladen">
+      </div>
+      <div class="card-body">
+        <div class="card-title">Wiederladen</div>
+        <p class="card-desc">Hülsen, Pulver, Zündhütchen, Pressen und Zubehör für alle, die ihre Munition selbst laden.</p>
+        <span class="card-link">Entdecken <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </div>
+    </a>
+
+    <a href="#" class="category-card">
+      <div class="card-icon-wrap">
+        <img src="img/gutscheine.jpg" alt="Gutscheine">
+      </div>
+      <div class="card-body">
+        <div class="card-title">Gutscheine</div>
+        <p class="card-desc">Das perfekte Geschenk für Jäger, Schützen und Outdoor-Fans — einlösbar im Laden und im Onlineshop.</p>
+        <span class="card-link">Entdecken <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>
+      </div>
+    </a>
+
+  </div>
+
+  </main>
+
+  <!-- LADEN-FOTO vollbreite -->
+  <section class="laden-section">
+    <img src="wb_laden.jpg" alt="Waffen-Bassing Innenansicht">
+    <div class="laden-overlay">
+      <div class="laden-text">
+        <p class="section-label">Augustinerstraße 60–62 · Mainz</p>
+        <h2>Erleben Sie unser Sortiment vor Ort.</h2>
+        <p>Über 100 Jahre Tradition — unser Fachpersonal berät Sie persönlich, kompetent und ohne Zeitdruck. Kommen Sie vorbei.</p>
+        <a href="tel:061312340141" class="btn-primary" style="display:inline-block;">☎ 06131 / 23 40 14</a>
+      </div>
+    </div>
+  </section>
+
+  <main style="padding-top:64px; max-width:1280px; margin:0 auto; padding-left:40px; padding-right:40px; padding-bottom:100px;">
+
+
+
+  <!-- Marken -->
+  <div class="brands-section">
+    <div class="section-header">
+      <img src="wb-logo.svg" alt="Waffen-Bassing" style="width:120px;height:auto;display:block;margin:0 auto 20px;filter:brightness(0) saturate(0) brightness(0.4);">
+      <p class="section-label">Unsere Marken</p>
+      <h2>Geführte Hersteller</h2>
+      <p>Wir führen ausschließlich Marken, hinter denen wir stehen — ausgewählt nach Qualität, Zuverlässigkeit und Handwerk.</p>
+    </div>
+    <div class="brands-grid">
+      <div class="brand-pill">Aimpoint</div>
+      <div class="brand-pill">Anschütz</div>
+      <div class="brand-pill">Beretta</div>
+      <div class="brand-pill">Blaser</div>
+      <div class="brand-pill">Browning</div>
+      <div class="brand-pill">CZ</div>
+      <div class="brand-pill">Glock</div>
+      <div class="brand-pill">Heckler & Koch</div>
+      <div class="brand-pill">Leica</div>
+      <div class="brand-pill">Merkel</div>
+      <div class="brand-pill">Opinel</div>
+      <div class="brand-pill">Sauer</div>
+      <div class="brand-pill">Sig Sauer</div>
+      <div class="brand-pill">Steyr Mannlicher</div>
+      <div class="brand-pill">Swarovski Optik</div>
+      <div class="brand-pill">Victorinox</div>
+      <div class="brand-pill">Walther</div>
+      <div class="brand-pill">Zeiss</div>
+      <div class="brand-pill">Lapua</div>
+      <div class="brand-pill">RWS</div>
+      <div class="brand-pill">Norma</div>
+      <div class="brand-pill">Brenneke</div>
+    </div>
+  </div>
+
+  <!-- Beratungs-Banner -->
+  <div class="beratung-banner">
+    <div class="beratung-text">
+      <p class="section-label">Persönliche Beratung</p>
+      <h2>Nicht sicher, was<br>das Richtige ist?</h2>
+      <p>Unser Team berät Sie persönlich — ob im Laden in der Augustinerstraße oder telefonisch. Über 100 Jahre Erfahrung sprechen für sich.</p>
+    </div>
+    <div class="beratung-actions">
+      <a href="tel:061312340141" class="btn-primary">☎ 06131 / 23 40 14</a>
+      <a href="#" class="btn-outline">Öffnungszeiten ansehen</a>
+    </div>
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="wb-logo.svg" alt="Waffen-Bassing">
+        <p>Ältestes Waffengeschäft in Mainz.<br>Augustinerstraße 60–62<br>55116 Mainz</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sortiment</h4>
+        <ul>
+          <li><a href="#">Jagd</a></li>
+          <li><a href="#">Sport</a></li>
+          <li><a href="#">Optik</a></li>
+          <li><a href="#">Messer</a></li>
+          <li><a href="#">Munition</a></li>
+          <li><a href="#">Wiederladen</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Service</h4>
+        <ul>
+          <li><a href="#">Büchsenmacherei</a></li>
+          <li><a href="#">Werkstatt</a></li>
+          <li><a href="#">Über uns</a></li>
+          <li><a href="#">Onlineshop</a></li>
+          <li><a href="#">Gutscheine</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Öffnungszeiten</h4>
+        <ul class="footer-hours">
+          <li><span class="day">Mo, Mi, Do, Fr</span><span>9:30–12:30<br>14:30–18:00</span></li>
+          <li><span class="day">Dienstag</span><span>geschlossen</span></li>
+          <li><span class="day">1. Sa/Monat</span><span>10:00–14:00</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Waffen-Bassing Mainz · Tradition seit 1919</span>
+      <span>Impressum · Datenschutz</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

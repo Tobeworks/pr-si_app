@@ -1,0 +1,13 @@
+{
+  "name": "waffen-bassing-praesi",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "pnpm build && rsync -avz --delete dist/ root@85.215.52.17:/var/www/vhosts/tobeworks.de/subdomains/bassing/httpdocs/"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

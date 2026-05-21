@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Waffen-Bassing – Website-Konzept</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      background: #111;
+      color: #fff;
+      font-family: 'Georgia', serif;
+      overflow: hidden;
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .slides {
+      display: flex;
+      width: 500vw;
+      height: 100vh;
+      transition: transform 0.5s cubic-bezier(0.77, 0, 0.18, 1);
+    }
+
+    .slide {
+      width: 100vw;
+      height: 100vh;
+      flex-shrink: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      padding: 40px;
+    }
+
+    /* Slide 1 – Titel */
+    .slide-title {
+      background: #0d1a0d;
+      background-image: radial-gradient(ellipse at 60% 40%, #1a3320 0%, #0d1a0d 70%);
+    }
+
+    .slide-title .logo-text {
+      font-size: 13px;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: #5a8a5a;
+      margin-bottom: 28px;
+    }
+
+    .slide-title h1 {
+      font-size: clamp(36px, 5vw, 64px);
+      font-weight: 400;
+      letter-spacing: 2px;
+      text-align: center;
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    .slide-title .subtitle {
+      font-size: 18px;
+      color: #aaa;
+      font-style: italic;
+      margin-bottom: 48px;
+    }
+
+    .slide-title .hint {
+      font-size: 13px;
+      color: #4a7a4a;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .hint-arrow {
+      display: inline-block;
+      animation: pulse 1.5s ease-in-out infinite;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: translateX(0); opacity: 0.5; }
+      50% { transform: translateX(6px); opacity: 1; }
+    }
+
+    /* Slide 2 – Ist-Zustand */
+    .slide-ist {
+      background: #1a0d0d;
+      flex-direction: row;
+      gap: 60px;
+      align-items: center;
+    }
+
+    .slide-ist .screen-wrap {
+      position: relative;
+      flex-shrink: 0;
+    }
+
+    .slide-ist img {
+      width: 660px;
+      border-radius: 8px;
+      border: 2px solid #333;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.6);
+    }
+
+    .problem-badge {
+      position: absolute;
+      background: #cc3333;
+      color: #fff;
+      font-size: 12px;
+      font-family: sans-serif;
+      padding: 4px 10px;
+      border-radius: 20px;
+      white-space: nowrap;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+
+    .badge-1 { top: 8%;  left: -6%; }
+    .badge-2 { top: 22%; right: -12%; }
+    .badge-3 { top: 38%; left: -8%; }
+    .badge-4 { top: 52%; right: -14%; }
+    .badge-5 { top: 66%; left: -4%; }
+    .badge-6 { top: 80%; right: -10%; }
+
+    .slide-ist .text-col {
+      max-width: 380px;
+    }
+
+
+    /* Typography */
+    .slide-label {
+      font-size: 11px;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: #5a8a5a;
+      margin-bottom: 14px;
+      font-family: sans-serif;
+    }
+
+    .slide h2 {
+      font-size: clamp(22px, 2.5vw, 32px);
+      font-weight: 400;
+      line-height: 1.3;
+      margin-bottom: 20px;
+    }
+
+    .slide p {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #bbb;
+      font-family: sans-serif;
+      margin-bottom: 14px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: rgba(90, 138, 90, 0.15);
+      border: 1px solid rgba(90, 138, 90, 0.4);
+      color: #7ab87a;
+      font-size: 11px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-family: sans-serif;
+      margin-right: 6px;
+      margin-top: 8px;
+    }
+
+    /* Navigation */
+    .nav {
+      position: fixed;
+      bottom: 28px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      z-index: 100;
+    }
+
+    .nav-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #444;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .nav-dot.active {
+      background: #5a8a5a;
+      transform: scale(1.4);
+    }
+
+    .nav-btn {
+      background: rgba(255,255,255,0.08);
+      border: 1px solid rgba(255,255,255,0.15);
+      color: #fff;
+      padding: 8px 18px;
+      border-radius: 24px;
+      cursor: pointer;
+      font-size: 13px;
+      font-family: sans-serif;
+      letter-spacing: 1px;
+      transition: background 0.2s;
+    }
+
+    .nav-btn:hover { background: rgba(255,255,255,0.15); }
+
+    .slide-counter {
+      position: fixed;
+      top: 24px;
+      right: 32px;
+      font-size: 12px;
+      font-family: sans-serif;
+      color: #555;
+      letter-spacing: 2px;
+    }
+
+    /* Red problem lines */
+    .problem-line {
+      position: absolute;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: rgba(200, 50, 50, 0.5);
+      pointer-events: none;
+    }
+
+    .ist-header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(to bottom, rgba(180,30,30,0.25), transparent);
+      height: 25%;
+      border-radius: 8px 8px 0 0;
+      pointer-events: none;
+    }
+
+    .ist-middle {
+      position: absolute;
+      top: 25%;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(to bottom, transparent, rgba(180,30,30,0.12));
+      border-radius: 0 0 8px 8px;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="slides" id="slides">
+
+  <!-- Slide 1: Titel -->
+  <div class="slide slide-title">
+    <img src="wb-logo.svg" alt="Waffen-Bassing Logo" style="width:180px; margin-bottom: 32px; filter: brightness(0) invert(1);">
+    <div class="logo-text">Tobeworks · Webentwicklung</div>
+    <h1>Website-Konzept</h1>
+    <div class="subtitle">Konzeptvorschläge für die Startseite · Mai 2026</div>
+    <div class="hint">Weiter <span class="hint-arrow">→</span></div>
+  </div>
+
+  <!-- Slide 2: Ist-Zustand -->
+  <div class="slide slide-ist">
+    <div class="screen-wrap">
+      <img src="Startseite-Waffen-Bassing.png" alt="Aktuelle Startseite">
+      <div class="ist-header"></div>
+      <div class="ist-middle"></div>
+      <div class="problem-badge badge-1">❌ Kein Hero-Bild</div>
+      <div class="problem-badge badge-2">❌ Öffnungszeiten winzig & nicht klickbar</div>
+      <div class="problem-badge badge-3">❌ Telefonnummer nicht anklickbar</div>
+      <div class="problem-badge badge-4">❌ Wichtige Infos nicht im ersten Viewport</div>
+      <div class="problem-badge badge-5">❌ Angebote unattraktiv aufbereitet</div>
+      <div class="problem-badge badge-6">❌ Kein Kaufreiz, kein Storytelling</div>
+    </div>
+    <div class="text-col">
+      <div class="slide-label">Status Quo</div>
+      <h2>Die aktuelle Seite verschenkt Potenzial</h2>
+      <p>Kein emotionales Bild, keine klickbare Telefonnummer, Öffnungszeiten kaum lesbar — Besucher finden die wichtigsten Infos nicht auf Anhieb.</p>
+      <p>Aktuelle Angebote wirken lieblos, es fehlen Kaufreize. Für ein Traditionsgeschäft seit 1919 ist das verschenktes Vertrauen.</p>
+      <span class="tag">Veraltetes Design</span>
+      <span class="tag">Schlechte UX</span>
+      <span class="tag">Kein Storytelling</span>
+      <span class="tag">Schwache Conversion</span>
+    </div>
+  </div>
+
+  <!-- Slide 3: Design-Philosophie -->
+  <div class="slide slide-design" style="position: relative; overflow: hidden; align-items: center; justify-content: center; flex-direction: column; padding: 0;">
+    <!-- Hintergrundbild -->
+    <div style="position: absolute; inset: 0; background: url('wb_laden.jpg') center/cover no-repeat;"></div>
+    <div style="position: absolute; inset: 0; background: rgba(8,18,8,0.55);"></div>
+
+    <!-- Creme Content-Card -->
+    <div style="position: relative; z-index: 1; width: 100%; max-width: 1160px; background: #f5f0e8; border-radius: 20px; padding: 52px 60px; display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; box-shadow: 0 24px 80px rgba(0,0,0,0.55);">
+
+      <!-- Links: Headline + Farbschema -->
+      <div style="text-align: left;">
+        <img src="wb-logo.svg" alt="Waffen-Bassing" style="width:80px; margin-bottom:24px; filter: brightness(0); opacity:0.7; display:block;">
+        <div style="font-size:10px; letter-spacing:3px; text-transform:uppercase; color:#4a7a4a; font-family:sans-serif; margin-bottom:12px;">Design-Philosophie</div>
+        <h2 style="font-size: clamp(26px, 2.6vw, 40px); line-height: 1.2; margin-bottom: 18px; font-family: Georgia, serif; color: #1a2e1a;">Ein Laden mit<br>100 Jahren Geschichte —<br><em style="color: #4a7a4a;">das muss man spüren.</em></h2>
+        <p style="font-size: 13.5px; color: #4a4a3a; font-family: sans-serif; line-height: 1.75; margin-bottom: 36px;">Wer die Seite öffnet, soll nicht einfach einen Shop sehen. Er soll den Geruch von geöltem Holz spüren, die Ruhe eines alten Handwerksbetriebs — und sofort wissen: <strong style="color:#1a2e1a;">Hier bin ich richtig.</strong></p>
+
+        <!-- Farbschema -->
+        <div style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #4a7a4a; font-family: sans-serif; margin-bottom: 14px;">Farbwelt</div>
+        <div style="display: flex; gap: 10px; align-items: flex-end;">
+          <div style="text-align:center;">
+            <div style="width:48px;height:48px;border-radius:10px;background:#1a2e1a;box-shadow:0 2px 8px rgba(0,0,0,0.2); margin-bottom:6px;"></div>
+            <div style="font-size:9px;color:#7a7a6a;font-family:sans-serif;">Waldgrün</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="width:48px;height:48px;border-radius:10px;background:#2d4a2d;box-shadow:0 2px 8px rgba(0,0,0,0.2); margin-bottom:6px;"></div>
+            <div style="font-size:9px;color:#7a7a6a;font-family:sans-serif;">Moos</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="width:48px;height:48px;border-radius:10px;background:#4a7a4a;box-shadow:0 2px 8px rgba(0,0,0,0.2); margin-bottom:6px;"></div>
+            <div style="font-size:9px;color:#7a7a6a;font-family:sans-serif;">Akzent</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="width:48px;height:48px;border-radius:10px;background:#f5f0e8;box-shadow:0 2px 8px rgba(0,0,0,0.2);border:1px solid #ddd8ce; margin-bottom:6px;"></div>
+            <div style="font-size:9px;color:#7a7a6a;font-family:sans-serif;">Creme</div>
+          </div>
+          <div style="text-align:center;">
+            <div style="width:48px;height:48px;border-radius:10px;background:#ffffff;box-shadow:0 2px 8px rgba(0,0,0,0.2);border:1px solid #e0dbd0; margin-bottom:6px;"></div>
+            <div style="font-size:9px;color:#7a7a6a;font-family:sans-serif;">Weiß</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Rechts: 3 Designprinzipien -->
+      <div style="display: flex; flex-direction: column; gap: 14px; padding-top: 4px;">
+
+        <div style="background: #fff; border-radius: 14px; padding: 22px 26px; border-left: 3px solid #4a7a4a; box-shadow: 0 2px 12px rgba(0,0,0,0.07);">
+          <div style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #4a7a4a; font-family: sans-serif; margin-bottom: 8px;">Typografie</div>
+          <p style="font-size: 13px; color: #4a4a3a; font-family: sans-serif; line-height: 1.65; margin: 0;"><span style="font-family: Georgia, serif; font-size: 15px; color:#1a2e1a;">Playfair Display</span> für Headlines — die Schrift fühlt sich an wie ein altes Jagdbuch. Kombiniert mit <strong style="color:#1a2e1a;">Inter</strong> für klaren, modernen Fließtext.</p>
+        </div>
+
+        <div style="background: #fff; border-radius: 14px; padding: 22px 26px; border-left: 3px solid #4a7a4a; box-shadow: 0 2px 12px rgba(0,0,0,0.07);">
+          <div style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #4a7a4a; font-family: sans-serif; margin-bottom: 8px;">Kategorie-Karten mit echten Fotos</div>
+          <p style="font-size: 13px; color: #4a4a3a; font-family: sans-serif; line-height: 1.65; margin: 0;">Jagd, Optik, Messer, Munition — jede Kategorie mit einem stimmungsvollen Bild. <strong style="color:#1a2e1a;">Der Kunde sieht sofort: Das ist meine Welt.</strong></p>
+        </div>
+
+        <div style="background: #fff; border-radius: 14px; padding: 22px 26px; border-left: 3px solid #4a7a4a; box-shadow: 0 2px 12px rgba(0,0,0,0.07);">
+          <div style="font-size: 10px; letter-spacing: 3px; text-transform: uppercase; color: #4a7a4a; font-family: sans-serif; margin-bottom: 8px;">Markendetails & Wiedererkennbarkeit</div>
+          <p style="font-size: 13px; color: #4a4a3a; font-family: sans-serif; line-height: 1.65; margin: 0;">Das Hirsch-Signet als Divider, vollbreite Ladenfotos, Öffnungszeiten prominent und anklickbar. <strong style="color:#1a2e1a;">Jedes Detail flüstert: Tradition seit 1919.</strong></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 4: Störer-Varianten -->
+  <div class="slide" style="background-image: url('wb_laden.jpg'); background-size: cover; background-position: center; flex-direction: column; padding: 0; position: relative; overflow: hidden;">
+    <div style="position:absolute;inset:0;background:rgba(8,18,8,0.58);"></div>
+
+    <!-- Creme Content-Card -->
+    <div style="position:relative;z-index:1;width:100%;max-width:1100px;background:#f5f0e8;border-radius:20px;padding:44px 60px;display:flex;flex-direction:column;align-items:center;gap:40px;box-shadow:0 24px 80px rgba(0,0,0,0.55);">
+
+      <div style="text-align:center;">
+        <div style="font-size:10px;letter-spacing:4px;text-transform:uppercase;color:#4a7a4a;font-family:sans-serif;margin-bottom:10px;">Verkaufsoffener Samstag</div>
+        <h2 style="font-size:clamp(22px,2.5vw,34px);font-weight:400;color:#1a2e1a;font-family:Georgia,serif;margin:0;">Welcher Störer gefällt Ihnen?</h2>
+      </div>
+
+      <div style="display:flex;gap:48px;align-items:center;justify-content:center;flex-wrap:wrap;">
+
+        <!-- A: Doppelring (aktuell) -->
+        <div style="display:flex;flex-direction:column;align-items:center;gap:16px;">
+          <div style="width:170px;height:170px;border-radius:50%;background:#2d4a2d;border:2px solid #fff;padding:8px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 32px rgba(0,0,0,0.5);">
+            <div style="width:100%;height:100%;border-radius:50%;border:2px solid #fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:12px;text-align:center;">
+              <svg viewBox="0 0 57.17 48.33" style="width:34px;height:34px;"><path fill="#fff" fill-rule="evenodd" d="M32.4,47.26c1.36-3.47,1.2-5.28,2-8a8.59,8.59,0,0,1,1.31-2.29A7.1,7.1,0,0,0,37,32.77a.74.74,0,0,1,.65-.86,9.28,9.28,0,0,0,5.18-3.53A6,6,0,0,0,44,25c-5.54.33-7.12,3.11-8.24,4.52L35,28.78a24.81,24.81,0,0,1,11.75-6.27c1.11-.24,2.22-.5,3.33-.72,3.52-.7,5.64-3,7.11-6.3a16.7,16.7,0,0,1-7.65,4.7c.74-.94,1.41-1.73,2-2.56A15.39,15.39,0,0,0,54,12.83c2.62-2.58,2.64-7.4,1.35-9.94,0,.21,0,.42.07.64a10.14,10.14,0,0,1-1,5.76A9.94,9.94,0,0,0,53,4.88,16.63,16.63,0,0,0,48.41,0c2.57,3,4.45,6.2,4,10.38C51,8.08,49.24,6.16,46.47,5.5c.17.12.35.23.52.36a9.61,9.61,0,0,1,4.09,5.56,4.27,4.27,0,0,1-.27,3A10.37,10.37,0,0,1,47,19.06a18.81,18.81,0,0,1-2.23,1c.76-2.84.45-5.23-1.43-7.28.18.53.37,1.06.53,1.59a5,5,0,0,1-1.15,5.11,44.79,44.79,0,0,1-4.47,3.83c.23-1.53.61-3-.24-4.54.29,4.11-4.92,9.5-9.36,9.27h0c-4.45.23-9.66-5.16-9.37-9.27-.85,1.53-.47,3-.24,4.54a47.16,47.16,0,0,1-4.47-3.83,5,5,0,0,1-1.15-5.11c.16-.53.36-1.06.53-1.59-1.88,2-2.18,4.44-1.42,7.28a19.78,19.78,0,0,1-2.24-1,10.37,10.37,0,0,1-3.86-4.6,4.33,4.33,0,0,1-.27-3,9.61,9.61,0,0,1,4.09-5.56c.17-.13.35-.24.53-.36-2.78.66-4.5,2.58-5.94,4.88C4.31,6.2,6.19,3,8.76,0A16.63,16.63,0,0,0,4.15,4.88,9.94,9.94,0,0,0,2.76,9.29a10.06,10.06,0,0,1-1-5.76l.06-.64C.53,5.43.55,10.25,3.18,12.83a15.16,15.16,0,0,0,2.45,4.8c.61.83,1.28,1.62,2,2.56A16.75,16.75,0,0,1,0,15.49c1.48,3.32,3.6,5.6,7.11,6.3,1.11.22,2.22.48,3.33.72a24.76,24.76,0,0,1,11.75,6.27l-.81.74c-1.12-1.41-2.7-4.19-8.24-4.52a6,6,0,0,0,1.17,3.38,9.32,9.32,0,0,0,5.18,3.53.74.74,0,0,1,.65.86,7.17,7.17,0,0,0,1.34,4.17,8.59,8.59,0,0,1,1.31,2.29c.79,2.75.62,4.56,2,8a1.22,1.22,0,0,0,.49.52,7.4,7.4,0,0,0,3.3.55,7.69,7.69,0,0,0,3.38-.57,1.15,1.15,0,0,0,.46-.5"/></svg>
+              <span style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.7);font-family:sans-serif;">Verkaufsoffener</span>
+              <span style="font-size:20px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:#fff;font-family:sans-serif;line-height:1;">Samstag</span>
+              <span style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.7);font-family:sans-serif;">Heute geöffnet</span>
+            </div>
+          </div>
+          <span style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#4a7a4a;font-family:sans-serif;">A — Doppelring</span>
+        </div>
+
+        <!-- B: Einfacher Ring, Goldakzent -->
+        <div style="display:flex;flex-direction:column;align-items:center;gap:16px;">
+          <div style="width:170px;height:170px;border-radius:50%;background:#1a2e1a;border:3px solid #b8953a;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:20px;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.5),0 0 0 6px rgba(184,149,58,0.15);">
+              <svg viewBox="0 0 57.17 48.33" style="width:34px;height:34px;"><path fill="#b8953a" fill-rule="evenodd" d="M32.4,47.26c1.36-3.47,1.2-5.28,2-8a8.59,8.59,0,0,1,1.31-2.29A7.1,7.1,0,0,0,37,32.77a.74.74,0,0,1,.65-.86,9.28,9.28,0,0,0,5.18-3.53A6,6,0,0,0,44,25c-5.54.33-7.12,3.11-8.24,4.52L35,28.78a24.81,24.81,0,0,1,11.75-6.27c1.11-.24,2.22-.5,3.33-.72,3.52-.7,5.64-3,7.11-6.3a16.7,16.7,0,0,1-7.65,4.7c.74-.94,1.41-1.73,2-2.56A15.39,15.39,0,0,0,54,12.83c2.62-2.58,2.64-7.4,1.35-9.94,0,.21,0,.42.07.64a10.14,10.14,0,0,1-1,5.76A9.94,9.94,0,0,0,53,4.88,16.63,16.63,0,0,0,48.41,0c2.57,3,4.45,6.2,4,10.38C51,8.08,49.24,6.16,46.47,5.5c.17.12.35.23.52.36a9.61,9.61,0,0,1,4.09,5.56,4.27,4.27,0,0,1-.27,3A10.37,10.37,0,0,1,47,19.06a18.81,18.81,0,0,1-2.23,1c.76-2.84.45-5.23-1.43-7.28.18.53.37,1.06.53,1.59a5,5,0,0,1-1.15,5.11,44.79,44.79,0,0,1-4.47,3.83c.23-1.53.61-3-.24-4.54.29,4.11-4.92,9.5-9.36,9.27h0c-4.45.23-9.66-5.16-9.37-9.27-.85,1.53-.47,3-.24,4.54a47.16,47.16,0,0,1-4.47-3.83,5,5,0,0,1-1.15-5.11c.16-.53.36-1.06.53-1.59-1.88,2-2.18,4.44-1.42,7.28a19.78,19.78,0,0,1-2.24-1,10.37,10.37,0,0,1-3.86-4.6,4.33,4.33,0,0,1-.27-3,9.61,9.61,0,0,1,4.09-5.56c.17-.13.35-.24.53-.36-2.78.66-4.5,2.58-5.94,4.88C4.31,6.2,6.19,3,8.76,0A16.63,16.63,0,0,0,4.15,4.88,9.94,9.94,0,0,0,2.76,9.29a10.06,10.06,0,0,1-1-5.76l.06-.64C.53,5.43.55,10.25,3.18,12.83a15.16,15.16,0,0,0,2.45,4.8c.61.83,1.28,1.62,2,2.56A16.75,16.75,0,0,1,0,15.49c1.48,3.32,3.6,5.6,7.11,6.3,1.11.22,2.22.48,3.33.72a24.76,24.76,0,0,1,11.75,6.27l-.81.74c-1.12-1.41-2.7-4.19-8.24-4.52a6,6,0,0,0,1.17,3.38,9.32,9.32,0,0,0,5.18,3.53.74.74,0,0,1,.65.86,7.17,7.17,0,0,0,1.34,4.17,8.59,8.59,0,0,1,1.31,2.29c.79,2.75.62,4.56,2,8a1.22,1.22,0,0,0,.49.52,7.4,7.4,0,0,0,3.3.55,7.69,7.69,0,0,0,3.38-.57,1.15,1.15,0,0,0,.46-.5"/></svg>
+              <span style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#b8953a;font-family:sans-serif;">Verkaufsoffener</span>
+              <span style="font-size:20px;font-weight:800;letter-spacing:1px;text-transform:uppercase;color:#fff;font-family:sans-serif;line-height:1;">Samstag</span>
+              <span style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:#b8953a;font-family:sans-serif;">Heute geöffnet</span>
+          </div>
+          <span style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#4a7a4a;font-family:sans-serif;">B — Gold</span>
+        </div>
+
+        <!-- C: Nur Text, minimalistisch -->
+        <div style="display:flex;flex-direction:column;align-items:center;gap:16px;">
+          <div style="width:170px;height:170px;border-radius:50%;background:transparent;border:2px solid rgba(255,255,255,0.6);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;padding:20px;text-align:center;box-shadow:0 8px 32px rgba(0,0,0,0.4);backdrop-filter:blur(6px);">
+              <span style="font-size:9px;letter-spacing:3px;text-transform:uppercase;color:rgba(255,255,255,0.6);font-family:sans-serif;line-height:1;">Verkaufs&shy;offener</span>
+              <span style="font-size:26px;font-weight:800;letter-spacing:0px;text-transform:uppercase;color:#fff;font-family:sans-serif;line-height:1;">SAM<br>STAG</span>
+              <div style="width:30px;height:1px;background:rgba(255,255,255,0.4);margin:2px 0;"></div>
+              <span style="font-size:9px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,0.6);font-family:sans-serif;line-height:1;">Heute geöffnet</span>
+          </div>
+          <span style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#4a7a4a;font-family:sans-serif;">C — Minimal</span>
+        </div>
+
+        <!-- D: Hochformat-Pill -->
+        <div style="display:flex;flex-direction:column;align-items:center;gap:16px;">
+          <div style="width:130px;height:190px;border-radius:80px;background:#2d4a2d;border:2px solid rgba(255,255,255,0.9);padding:8px;display:flex;align-items:center;justify-content:center;box-shadow:0 8px 32px rgba(0,0,0,0.5);">
+            <div style="width:100%;height:100%;border-radius:72px;border:2px solid rgba(255,255,255,0.9);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;padding:16px;text-align:center;">
+              <svg viewBox="0 0 57.17 48.33" style="width:30px;height:30px;"><path fill="#fff" fill-rule="evenodd" d="M32.4,47.26c1.36-3.47,1.2-5.28,2-8a8.59,8.59,0,0,1,1.31-2.29A7.1,7.1,0,0,0,37,32.77a.74.74,0,0,1,.65-.86,9.28,9.28,0,0,0,5.18-3.53A6,6,0,0,0,44,25c-5.54.33-7.12,3.11-8.24,4.52L35,28.78a24.81,24.81,0,0,1,11.75-6.27c1.11-.24,2.22-.5,3.33-.72,3.52-.7,5.64-3,7.11-6.3a16.7,16.7,0,0,1-7.65,4.7c.74-.94,1.41-1.73,2-2.56A15.39,15.39,0,0,0,54,12.83c2.62-2.58,2.64-7.4,1.35-9.94,0,.21,0,.42.07.64a10.14,10.14,0,0,1-1,5.76A9.94,9.94,0,0,0,53,4.88,16.63,16.63,0,0,0,48.41,0c2.57,3,4.45,6.2,4,10.38C51,8.08,49.24,6.16,46.47,5.5c.17.12.35.23.52.36a9.61,9.61,0,0,1,4.09,5.56,4.27,4.27,0,0,1-.27,3A10.37,10.37,0,0,1,47,19.06a18.81,18.81,0,0,1-2.23,1c.76-2.84.45-5.23-1.43-7.28.18.53.37,1.06.53,1.59a5,5,0,0,1-1.15,5.11,44.79,44.79,0,0,1-4.47,3.83c.23-1.53.61-3-.24-4.54.29,4.11-4.92,9.5-9.36,9.27h0c-4.45.23-9.66-5.16-9.37-9.27-.85,1.53-.47,3-.24,4.54a47.16,47.16,0,0,1-4.47-3.83,5,5,0,0,1-1.15-5.11c.16-.53.36-1.06.53-1.59-1.88,2-2.18,4.44-1.42,7.28a19.78,19.78,0,0,1-2.24-1,10.37,10.37,0,0,1-3.86-4.6,4.33,4.33,0,0,1-.27-3,9.61,9.61,0,0,1,4.09-5.56c.17-.13.35-.24.53-.36-2.78.66-4.5,2.58-5.94,4.88C4.31,6.2,6.19,3,8.76,0A16.63,16.63,0,0,0,4.15,4.88,9.94,9.94,0,0,0,2.76,9.29a10.06,10.06,0,0,1-1-5.76l.06-.64C.53,5.43.55,10.25,3.18,12.83a15.16,15.16,0,0,0,2.45,4.8c.61.83,1.28,1.62,2,2.56A16.75,16.75,0,0,1,0,15.49c1.48,3.32,3.6,5.6,7.11,6.3,1.11.22,2.22.48,3.33.72a24.76,24.76,0,0,1,11.75,6.27l-.81.74c-1.12-1.41-2.7-4.19-8.24-4.52a6,6,0,0,0,1.17,3.38,9.32,9.32,0,0,0,5.18,3.53.74.74,0,0,1,.65.86,7.17,7.17,0,0,0,1.34,4.17,8.59,8.59,0,0,1,1.31,2.29c.79,2.75.62,4.56,2,8a1.22,1.22,0,0,0,.49.52,7.4,7.4,0,0,0,3.3.55,7.69,7.69,0,0,0,3.38-.57,1.15,1.15,0,0,0,.46-.5"/></svg>
+              <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,0.7);font-family:sans-serif;">Verkaufs-<br>offener</span>
+              <span style="font-size:18px;font-weight:800;text-transform:uppercase;color:#fff;font-family:sans-serif;line-height:1.1;">SAM-<br>STAG</span>
+              <span style="font-size:9px;letter-spacing:1.5px;text-transform:uppercase;color:rgba(255,255,255,0.7);font-family:sans-serif;">Geöffnet</span>
+            </div>
+          </div>
+          <span style="font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#4a7a4a;font-family:sans-serif;">D — Pill</span>
+        </div>
+
+      </div>
+    </div><!-- end creme card -->
+  </div>
+
+  <!-- Slide 5: Beispiel Startseite -->
+  <div class="slide" style="padding: 0; background: #0a120a; flex-direction: column;">
+    <div style="width:100%; padding: 14px 32px; background: rgba(0,0,0,0.6); display:flex; align-items:center; justify-content:space-between; flex-shrink:0; border-bottom:1px solid rgba(255,255,255,0.08);">
+      <div style="display:flex; align-items:center; gap:12px;">
+        <span style="font-size:10px; letter-spacing:3px; text-transform:uppercase; color:#6fa86f; font-family:sans-serif;">Entwurf</span>
+        <span style="font-size:14px; font-family:Georgia,serif; color:#fff;">Neue Startseite — Waffen-Bassing.de</span>
+      </div>
+      <a href="startseite.html" target="_blank" style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:#6fa86f; font-family:sans-serif; text-decoration:none; border:1px solid rgba(111,168,111,0.4); padding:6px 14px; border-radius:20px;">↗ Vollbild öffnen</a>
+    </div>
+    <iframe src="startseite.html" style="width:100%; flex:1; border:none; display:block;" scrolling="yes"></iframe>
+  </div>
+
+</div>
+
+<!-- Counter -->
+<div class="slide-counter" id="counter">1 / 5</div>
+
+<!-- Navigation -->
+<div class="nav">
+  <button class="nav-btn" id="prev">←</button>
+  <div class="nav-dot active" data-i="0"></div>
+  <div class="nav-dot" data-i="1"></div>
+  <div class="nav-dot" data-i="2"></div>
+  <div class="nav-dot" data-i="3"></div>
+  <div class="nav-dot" data-i="4"></div>
+  <button class="nav-btn" id="next">→</button>
+</div>
+
+<script>
+  let current = 0;
+  const total = 5;
+  const slides = document.getElementById('slides');
+  const dots = document.querySelectorAll('.nav-dot');
+  const counter = document.getElementById('counter');
+
+  function go(n) {
+    current = Math.max(0, Math.min(total - 1, n));
+    slides.style.transform = `translateX(-${current * 100}vw)`;
+    dots.forEach((d, i) => d.classList.toggle('active', i === current));
+    counter.textContent = `${current + 1} / ${total}`;
+  }
+
+  document.getElementById('next').addEventListener('click', () => go(current + 1));
+  document.getElementById('prev').addEventListener('click', () => go(current - 1));
+
+  dots.forEach(d => d.addEventListener('click', () => go(+d.dataset.i)));
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown') go(current + 1);
+    if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') go(current - 1);
+  });
+</script>
+</body>
+</html>

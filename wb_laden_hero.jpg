@@ -1,0 +1,1008 @@
+
+<!DOCTYPE html>
+<html lang="de" >
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+	<style type="text/css" class="et_global-custom-css">.type-product,.content{ul{margin-bottom:1.43em}li{margin-bottom:.5em;line-height:1.8;font-size:1.14rem}ul,ol{padding-left:20px}}h1{margin:0 0 .67em 0}h1,.h1{margin-top:0;font-size:~"calc(var(--h1-size-proportion) * 1rem)";line-height:var(--h1-line-height);font-weight:400;margin-bottom:.5rem;color:var(--et_dark-2-white)}h2,.h2{line-height:var(--h2-line-height);color:var(--et_dark-2-white)}h3,.h3{line-height:var(--h3-line-height);color:var(--et_dark-2-white)}h4,.h4{line-height:var(--h4-line-height);color:var(--et_dark-2-white)}h5,.h5{line-height:var(--h5-line-height);color:var(--et_dark-2-white)}h6,.h6{line-height:var(--h6-line-height);color:var(--et_dark-2-white)}h2,.h2,h3,.h3{margin-top:0;font-size:calc(var(--h2-size-proportion) * 1rem);font-weight:400;margin-bottom:.7rem}h3,.h3{font-size:calc(var(--h3-size-proportion) * 1rem)}h4,.h4{margin-top:0;font-size:calc(var(--h4-size-proportion) * 1rem);font-weight:400;margin-bottom:.7rem}h5,.h5{margin-top:0;font-size:calc(var(--h5-size-proportion) * 1rem);font-weight:400;margin-bottom:.7rem}h6,.h6{margin-top:0;font-size:calc(var(--h6-size-proportion) * 1rem);font-weight:400;margin-bottom:.7rem}p{margin-bottom:1.43rem;line-height:var(--p-line-height,1.6);font-size:var(--p-font-size,1.14rem)}</style><meta name='robots' content='noindex, follow' />
+
+	<!-- This site is optimized with the Yoast SEO plugin v27.4 - https://yoast.com/product/yoast-seo-wordpress/ -->
+	<title>Seite wurde nicht gefunden. - Waffen-Bassing</title>
+	<meta property="og:locale" content="de_DE" />
+	<meta property="og:title" content="Seite wurde nicht gefunden. - Waffen-Bassing" />
+	<meta property="og:site_name" content="Waffen-Bassing" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https:\/\/schema.org","@graph":[{"@type":"WebSite","@id":"https:\/\/waffen-bassing.de\/#website","url":"https:\/\/waffen-bassing.de\/","name":"Waffen-Bassing","description":"","publisher":{"@id":"https:\/\/waffen-bassing.de\/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https:\/\/waffen-bassing.de\/?s={search_term_string}"},"query-input":{"@type":"PropertyValueSpecification","valueRequired":true,"valueName":"search_term_string"}}],"inLanguage":"de"},{"@type":"Organization","@id":"https:\/\/waffen-bassing.de\/#organization","name":"Waffen-Bassing GmbH","url":"https:\/\/waffen-bassing.de\/","logo":{"@type":"ImageObject","inLanguage":"de","@id":"https:\/\/waffen-bassing.de\/#\/schema\/logo\/image\/","url":"https:\/\/waffen-bassing.de\/wp-content\/uploads\/2021\/09\/wb-logo-full.svg","contentUrl":"https:\/\/waffen-bassing.de\/wp-content\/uploads\/2021\/09\/wb-logo-full.svg","width":203,"height":183,"caption":"Waffen-Bassing GmbH"},"image":{"@id":"https:\/\/waffen-bassing.de\/#\/schema\/logo\/image\/"}}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="alternate" type="application/rss+xml" title="Waffen-Bassing &raquo; Feed" href="https://waffen-bassing.de/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Waffen-Bassing &raquo; Kommentar-Feed" href="https://waffen-bassing.de/comments/feed/" />
+<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
+img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
+/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+</style>
+<style id='classic-theme-styles-inline-css' type='text/css'>
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+</style>
+<style id='safe-svg-svg-icon-style-inline-css' type='text/css'>
+.safe-svg-cover{text-align:center}.safe-svg-cover .safe-svg-inside{display:inline-block;max-width:100%}.safe-svg-cover svg{fill:currentColor;height:100%;max-height:100%;max-width:100%;width:100%}
+
+/*# sourceURL=https://waffen-bassing.de/wp-content/plugins/safe-svg/dist/safe-svg-block-frontend.css */
+</style>
+<style id='filebird-block-filebird-gallery-style-inline-css' type='text/css'>
+ul.filebird-block-filebird-gallery{margin:auto!important;padding:0!important;width:100%}ul.filebird-block-filebird-gallery.layout-grid{display:grid;grid-gap:20px;align-items:stretch;grid-template-columns:repeat(var(--columns),1fr);justify-items:stretch}ul.filebird-block-filebird-gallery.layout-grid li img{border:1px solid #ccc;box-shadow:2px 2px 6px 0 rgba(0,0,0,.3);height:100%;max-width:100%;-o-object-fit:cover;object-fit:cover;width:100%}ul.filebird-block-filebird-gallery.layout-masonry{-moz-column-count:var(--columns);-moz-column-gap:var(--space);column-gap:var(--space);-moz-column-width:var(--min-width);columns:var(--min-width) var(--columns);display:block;overflow:auto}ul.filebird-block-filebird-gallery.layout-masonry li{margin-bottom:var(--space)}ul.filebird-block-filebird-gallery li{list-style:none}ul.filebird-block-filebird-gallery li figure{height:100%;margin:0;padding:0;position:relative;width:100%}ul.filebird-block-filebird-gallery li figure figcaption{background:linear-gradient(0deg,rgba(0,0,0,.7),rgba(0,0,0,.3) 70%,transparent);bottom:0;box-sizing:border-box;color:#fff;font-size:.8em;margin:0;max-height:100%;overflow:auto;padding:3em .77em .7em;position:absolute;text-align:center;width:100%;z-index:2}ul.filebird-block-filebird-gallery li figure figcaption a{color:inherit}
+
+/*# sourceURL=https://waffen-bassing.de/wp-content/plugins/filebird/blocks/filebird-gallery/build/style-index.css */
+</style>
+<style id='global-styles-inline-css' type='text/css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-term-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-term-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+/*# sourceURL=global-styles-inline-css */
+</style>
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+/*# sourceURL=woocommerce-inline-inline-css */
+</style>
+<link rel='stylesheet' id='aws-style-css' href='https://waffen-bassing.de/wp-content/plugins/advanced-woo-search/assets/css/common.min.css?ver=3.61' type='text/css' media='all' />
+<link rel='stylesheet' id='parent-style-css' href='https://waffen-bassing.de/wp-content/themes/xstore/style.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='child-style-css' href='https://waffen-bassing.de/wp-content/themes/waffen-bassing/style.css?ver=6.9.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-frontend-css' href='https://waffen-bassing.de/wp-content/plugins/elementor/assets/css/frontend.min.css?ver=4.0.4' type='text/css' media='all' />
+<style id='elementor-frontend-inline-css' type='text/css'>
+.elementor-kit-58{--e-global-color-primary:#043c24;--e-global-color-secondary:#70b050;--e-global-color-text:#7A7A7A;--e-global-color-accent:#94ac7b;--e-global-color-ce7eae6:#FFFFFF;--e-global-color-3204dfc:#E5EBDF;--e-global-typography-primary-font-family:"Open Sans";--e-global-typography-primary-font-weight:600;--e-global-typography-secondary-font-family:"Open Sans";--e-global-typography-secondary-font-weight:400;--e-global-typography-text-font-family:"Roboto";--e-global-typography-text-font-weight:400;--e-global-typography-accent-font-family:"Roboto";--e-global-typography-accent-font-weight:500;font-weight:400;}.elementor-kit-58 button,.elementor-kit-58 input[type="button"],.elementor-kit-58 input[type="submit"],.elementor-kit-58 .elementor-button{background-color:var( --e-global-color-accent );}.elementor-kit-58 button:hover,.elementor-kit-58 button:focus,.elementor-kit-58 input[type="button"]:hover,.elementor-kit-58 input[type="button"]:focus,.elementor-kit-58 input[type="submit"]:hover,.elementor-kit-58 input[type="submit"]:focus,.elementor-kit-58 .elementor-button:hover,.elementor-kit-58 .elementor-button:focus{background-color:var( --e-global-color-primary );}.elementor-kit-58 e-page-transition{background-color:#FFBC7D;}.elementor-kit-58 h1{font-size:5rem;}.elementor-kit-58 h2{font-size:2.5rem;}.elementor-section.elementor-section-boxed > .elementor-container{max-width:1140px;}.e-con{--container-max-width:1140px;}.elementor-widget:not(:last-child){margin-block-end:20px;}.elementor-element{--widgets-spacing:20px 20px;--widgets-spacing-row:20px;--widgets-spacing-column:20px;}{}h1.entry-title{display:var(--page-title-display);}@media(max-width:1024px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:1024px;}.e-con{--container-max-width:1024px;}}@media(max-width:767px){.elementor-section.elementor-section-boxed > .elementor-container{max-width:767px;}.e-con{--container-max-width:767px;}}
+
+				.elementor-widget-woocommerce-checkout-page .woocommerce table.woocommerce-checkout-review-order-table {
+				    margin: var(--sections-margin, 24px 0 24px 0);
+				    padding: var(--sections-padding, 16px 16px);
+				}
+				.elementor-widget-woocommerce-checkout-page .woocommerce table.woocommerce-checkout-review-order-table .cart_item td.product-name {
+				    padding-right: 20px;
+				}
+				.elementor-widget-woocommerce-checkout-page .woocommerce .woocommerce-checkout #payment {
+					border: none;
+					padding: 0;
+				}
+				.elementor-widget-woocommerce-checkout-page .woocommerce .e-checkout__order_review-2 {
+					background: var(--sections-background-color, #ffffff);
+				    border-radius: var(--sections-border-radius, 3px);
+				    padding: var(--sections-padding, 16px 30px);
+				    margin: var(--sections-margin, 0 0 24px 0);
+				    border-style: var(--sections-border-type, solid);
+				    border-color: var(--sections-border-color, #D5D8DC);
+				    border-width: 1px;
+				    display: block;
+				}
+				.elementor-widget-woocommerce-checkout-page .woocommerce-checkout .place-order {
+					display: -webkit-box;
+					display: -ms-flexbox;
+					display: flex;
+					-webkit-box-orient: vertical;
+					-webkit-box-direction: normal;
+					-ms-flex-direction: column;
+					flex-direction: column;
+					-ms-flex-wrap: wrap;
+					flex-wrap: wrap;
+					padding: 0;
+					margin-bottom: 0;
+					margin-top: 1em;
+					-webkit-box-align: var(--place-order-title-alignment, stretch);
+					-ms-flex-align: var(--place-order-title-alignment, stretch);
+					align-items: var(--place-order-title-alignment, stretch); 
+				}
+				.elementor-widget-woocommerce-checkout-page .woocommerce-checkout #place_order {
+					background-color: #5bc0de;
+					width: var(--purchase-button-width, auto);
+					float: none;
+					color: var(--purchase-button-normal-text-color, #ffffff);
+					min-height: auto;
+					padding: var(--purchase-button-padding, 1em 1em);
+					border-radius: var(--purchase-button-border-radius, 3px); 
+		        }
+		        .elementor-widget-woocommerce-checkout-page .woocommerce-checkout #place_order:hover {
+					background-color: #5bc0de;
+					color: var(--purchase-button-hover-text-color, #ffffff);
+					border-color: var(--purchase-button-hover-border-color, #5bc0de);
+					-webkit-transition-duration: var(--purchase-button-hover-transition-duration, 0.3s);
+					-o-transition-duration: var(--purchase-button-hover-transition-duration, 0.3s);
+					transition-duration: var(--purchase-button-hover-transition-duration, 0.3s); 
+                }
+			
+.elementor-187 .elementor-element.elementor-element-4744e5f:not(.elementor-motion-effects-element-type-background), .elementor-187 .elementor-element.elementor-element-4744e5f > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-color:#FFFFFF;}.elementor-187 .elementor-element.elementor-element-4744e5f, .elementor-187 .elementor-element.elementor-element-4744e5f > .elementor-background-overlay{border-radius:0px 0px 0px 0px;}.elementor-187 .elementor-element.elementor-element-4744e5f{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-187 .elementor-element.elementor-element-4744e5f > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-187 .elementor-element.elementor-element-62baab15{--divider-border-style:solid;--divider-color:var( --e-global-color-accent );--divider-border-width:2px;--divider-icon-size:80px;}.elementor-187 .elementor-element.elementor-element-62baab15 .elementor-divider-separator{width:100%;}.elementor-187 .elementor-element.elementor-element-62baab15 .elementor-divider{padding-block-start:15px;padding-block-end:15px;}.elementor-187 .elementor-element.elementor-element-e0ffce6{text-align:center;}.elementor-187 .elementor-element.elementor-element-e0ffce6 .elementor-heading-title{color:#222222;}.elementor-187 .elementor-element.elementor-element-534da1d{text-align:center;}.elementor-bc-flex-widget .elementor-187 .elementor-element.elementor-element-893b9c7.elementor-column .elementor-widget-wrap{align-items:space-evenly;}.elementor-187 .elementor-element.elementor-element-893b9c7.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:space-evenly;align-items:space-evenly;}.elementor-bc-flex-widget .elementor-187 .elementor-element.elementor-element-3415ab1.elementor-column .elementor-widget-wrap{align-items:space-evenly;}.elementor-187 .elementor-element.elementor-element-3415ab1.elementor-column.elementor-element[data-element_type="column"] > .elementor-widget-wrap.elementor-element-populated{align-content:space-evenly;align-items:space-evenly;}.elementor-187 .elementor-element.elementor-element-ef97372{text-align:start;}.elementor-187 .elementor-element.elementor-element-ef97372 .elementor-heading-title{color:#222222;}.elementor-theme-builder-content-area{height:400px;}.elementor-location-header:before, .elementor-location-footer:before{content:"";display:table;clear:both;}
+/*# sourceURL=elementor-frontend-inline-css */
+</style>
+<link rel='stylesheet' id='widget-divider-css' href='https://waffen-bassing.de/wp-content/plugins/elementor/assets/css/widget-divider.min.css?ver=4.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-heading-css' href='https://waffen-bassing.de/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=4.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='widget-image-css' href='https://waffen-bassing.de/wp-content/plugins/elementor/assets/css/widget-image.min.css?ver=4.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='elementor-icons-css' href='https://waffen-bassing.de/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.48.0' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-5-all-css' href='https://waffen-bassing.de/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=4.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='font-awesome-4-shim-css' href='https://waffen-bassing.de/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=4.0.4' type='text/css' media='all' />
+<link rel='stylesheet' id='pwb-styles-frontend-css' href='https://waffen-bassing.de/wp-content/plugins/perfect-woocommerce-brands/build/frontend/css/style.css?ver=3.6.12' type='text/css' media='all' />
+<link rel='stylesheet' id='borlabs-cookie-custom-css' href='https://waffen-bassing.de/wp-content/cache/borlabs-cookie/1/borlabs-cookie-1-de.css?ver=3.4-69' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-gzd-layout-css' href='https://waffen-bassing.de/wp-content/plugins/woocommerce-germanized/build/static/layout-styles.css?ver=4.0.3' type='text/css' media='all' />
+<style id='woocommerce-gzd-layout-inline-css' type='text/css'>
+.woocommerce-checkout .shop_table { background-color: #eeeeee; } .product p.deposit-packaging-type { font-size: 1.25em !important; } p.woocommerce-shipping-destination { display: none; }
+                .wc-gzd-nutri-score-value-a {
+                    background: url(https://waffen-bassing.de/wp-content/plugins/woocommerce-germanized/assets/images/nutri-score-a.svg) no-repeat;
+                }
+                .wc-gzd-nutri-score-value-b {
+                    background: url(https://waffen-bassing.de/wp-content/plugins/woocommerce-germanized/assets/images/nutri-score-b.svg) no-repeat;
+                }
+                .wc-gzd-nutri-score-value-c {
+                    background: url(https://waffen-bassing.de/wp-content/plugins/woocommerce-germanized/assets/images/nutri-score-c.svg) no-repeat;
+                }
+                .wc-gzd-nutri-score-value-d {
+                    background: url(https://waffen-bassing.de/wp-content/plugins/woocommerce-germanized/assets/images/nutri-score-d.svg) no-repeat;
+                }
+                .wc-gzd-nutri-score-value-e {
+                    background: url(https://waffen-bassing.de/wp-content/plugins/woocommerce-germanized/assets/images/nutri-score-e.svg) no-repeat;
+                }
+            
+/*# sourceURL=woocommerce-gzd-layout-inline-css */
+</style>
+<link rel='stylesheet' id='etheme-parent-style-css' href='https://waffen-bassing.de/wp-content/themes/xstore/xstore.min.css?ver=0.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='etheme-general-all-style-css' href='https://waffen-bassing.de/wp-content/themes/xstore/css/general-all.min.css?ver=0.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='etheme-elementor-all-widgets-style-css' href='https://waffen-bassing.de/wp-content/themes/xstore/css/elementor-all-widgets.min.css?ver=0.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='etheme-woocommerce-all-style-css' href='https://waffen-bassing.de/wp-content/themes/xstore/css/woocommerce-all.min.css?ver=0.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='etheme-portfolio-css' href='https://waffen-bassing.de/wp-content/themes/xstore/css/portfolio.min.css?ver=0.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='etheme-isotope-filters-css' href='https://waffen-bassing.de/wp-content/themes/xstore/css/modules/isotope/filters.min.css?ver=0.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='etheme-404-page-css' href='https://waffen-bassing.de/wp-content/themes/xstore/css/modules/404-page.min.css?ver=0.0.2' type='text/css' media='all' />
+<style id='xstore-icons-font-inline-css' type='text/css'>
+@font-face {
+				  font-family: 'xstore-icons';
+				  src:
+				    url('https://waffen-bassing.de/wp-content/themes/xstore/fonts/xstore-icons-light.ttf') format('truetype'),
+				    url('https://waffen-bassing.de/wp-content/themes/xstore/fonts/xstore-icons-light.woff2') format('woff2'),
+				    url('https://waffen-bassing.de/wp-content/themes/xstore/fonts/xstore-icons-light.woff') format('woff'),
+				    url('https://waffen-bassing.de/wp-content/themes/xstore/fonts/xstore-icons-light.svg#xstore-icons') format('svg');
+				  font-weight: normal;
+				  font-style: normal;
+				  font-display: swap;
+				}
+/*# sourceURL=xstore-icons-font-inline-css */
+</style>
+<link rel='stylesheet' id='etheme-header-contacts-css' href='https://waffen-bassing.de/wp-content/themes/xstore/css/modules/layout/header/parts/contacts.min.css?ver=0.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='etheme-header-menu-css' href='https://waffen-bassing.de/wp-content/themes/xstore/css/modules/layout/header/parts/menu.min.css?ver=0.0.2' type='text/css' media='all' />
+<link rel='stylesheet' id='xstore-kirki-styles-css' href='https://waffen-bassing.de/wp-content/uploads/xstore/kirki-styles.css?ver=1760423960618' type='text/css' media='all' />
+<script type="text/template" id="tmpl-variation-template">
+	<div class="woocommerce-variation-description">{{{ data.variation.variation_description }}}</div>
+	<div class="woocommerce-variation-price">{{{ data.variation.price_html }}}</div>
+	<div class="woocommerce-variation-availability">{{{ data.variation.availability_html }}}</div>
+</script>
+<script type="text/template" id="tmpl-unavailable-variation-template">
+	<p role="alert">Dieses Produkt ist leider nicht verfügbar. Bitte wähle eine andere Kombination.</p>
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.7.0-wc.10.7.0" id="wc-jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_view_cart":"Warenkorb anzeigen","cart_url":"https://waffen-bassing.de/warenkorb/","is_cart":"","cart_redirect_after_add":"no"};
+//# sourceURL=wc-add-to-cart-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=10.7.0" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4-wc.10.7.0" id="wc-js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"/wp-admin/admin-ajax.php","wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_password_show":"Passwort anzeigen","i18n_password_hide":"Passwort ausblenden"};
+//# sourceURL=woocommerce-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=10.7.0" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=4.0.4" id="font-awesome-4-shim-js"></script>
+<script data-no-optimize="1" data-no-minify="1" data-cfasync="false" type="text/javascript" src="https://waffen-bassing.de/wp-content/cache/borlabs-cookie/1/borlabs-cookie-config-de.json.js?ver=3.4-65" id="borlabs-cookie-config-js"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-includes/js/underscore.min.js?ver=1.13.7" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"/wp-admin/admin-ajax.php"}};
+//# sourceURL=wp-util-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-includes/js/wp-util.min.js?ver=6.9.4" id="wp-util-js"></script>
+<script type="text/javascript" id="wc-add-to-cart-variation-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_variation_params = {"wc_ajax_url":"/?wc-ajax=%%endpoint%%","i18n_no_matching_variations_text":"Es entsprechen leider keine Produkte deiner Auswahl. Bitte w\u00e4hle eine andere Kombination.","i18n_make_a_selection_text":"Bitte w\u00e4hle die Produktoptionen, bevor du den Artikel in den Warenkorb legst.","i18n_unavailable_text":"Dieses Produkt ist leider nicht verf\u00fcgbar. Bitte w\u00e4hle eine andere Kombination.","i18n_reset_alert_text":"Deine Auswahl wurde zur\u00fcckgesetzt. Bitte w\u00e4hle Produktoptionen aus, bevor du den Artikel in den Warenkorb legst."};
+//# sourceURL=wc-add-to-cart-variation-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart-variation.min.js?ver=10.7.0" id="wc-add-to-cart-variation-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-gzd-add-to-cart-variation-js-extra">
+/* <![CDATA[ */
+var wc_gzd_add_to_cart_variation_params = {"wrapper":".product","price_selector":"p.price","replace_price":"1"};
+//# sourceURL=wc-gzd-add-to-cart-variation-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/woocommerce-germanized/build/static/add-to-cart-variation.js?ver=4.0.3" id="wc-gzd-add-to-cart-variation-js" defer="defer" data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="https://waffen-bassing.de/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://waffen-bassing.de/xmlrpc.php?rsd" />
+<meta name="generator" content="WordPress 6.9.4" />
+<meta name="generator" content="WooCommerce 10.7.0" />
+			<link rel="prefetch" as="font" href="https://waffen-bassing.de/wp-content/themes/xstore/fonts/xstore-icons-light.woff?v=9.7" type="font/woff">
+					<link rel="prefetch" as="font" href="https://waffen-bassing.de/wp-content/themes/xstore/fonts/xstore-icons-light.woff2?v=9.7" type="font/woff2">
+			<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	<meta name="generator" content="Elementor 4.0.4; features: additional_custom_breakpoints; settings: css_print_method-internal, google_font-enabled, font_display-auto">
+			<style>
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload),
+				.e-con.e-parent:nth-of-type(n+4):not(.e-lazyloaded):not(.e-no-lazyload) * {
+					background-image: none !important;
+				}
+				@media screen and (max-height: 1024px) {
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+3):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+				@media screen and (max-height: 640px) {
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload),
+					.e-con.e-parent:nth-of-type(n+2):not(.e-lazyloaded):not(.e-no-lazyload) * {
+						background-image: none !important;
+					}
+				}
+			</style>
+			<link rel="icon" href="https://waffen-bassing.de/wp-content/uploads/2021/08/waffen-bassing.svg" sizes="32x32" />
+<link rel="icon" href="https://waffen-bassing.de/wp-content/uploads/2021/08/waffen-bassing.svg" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://waffen-bassing.de/wp-content/uploads/2021/08/waffen-bassing.svg" />
+<meta name="msapplication-TileImage" content="https://waffen-bassing.de/wp-content/uploads/2021/08/waffen-bassing.svg" />
+<style id="kirki-inline-styles"></style><style type="text/css" class="et_custom-css">p.stock.in-stock{display:none}.swiper-custom-right:not(.et-swiper-elementor-nav),.swiper-custom-left:not(.et-swiper-elementor-nav){background:transparent !important}@media only screen and (max-width:1707px){.swiper-custom-left,.middle-inside .swiper-entry .swiper-button-prev,.middle-inside.swiper-entry .swiper-button-prev{left:-15px}.swiper-custom-right,.middle-inside .swiper-entry .swiper-button-next,.middle-inside.swiper-entry .swiper-button-next{right:-15px}.middle-inbox .swiper-entry .swiper-button-prev,.middle-inbox.swiper-entry .swiper-button-prev{left:8px}.middle-inbox .swiper-entry .swiper-button-next,.middle-inbox.swiper-entry .swiper-button-next{right:8px}.swiper-entry:hover .swiper-custom-left,.middle-inside .swiper-entry:hover .swiper-button-prev,.middle-inside.swiper-entry:hover .swiper-button-prev{left:-5px}.swiper-entry:hover .swiper-custom-right,.middle-inside .swiper-entry:hover .swiper-button-next,.middle-inside.swiper-entry:hover .swiper-button-next{right:-5px}.middle-inbox .swiper-entry:hover .swiper-button-prev,.middle-inbox.swiper-entry:hover .swiper-button-prev{left:5px}.middle-inbox .swiper-entry:hover .swiper-button-next,.middle-inbox.swiper-entry:hover .swiper-button-next{right:5px}}.header-main-menu.et_element-top-level .menu{margin-right:-0px;margin-left:-0px}.swiper-container{width:auto}.content-product .product-content-image img,.category-grid img,.categoriesCarousel .category-grid img{width:100%}.etheme-elementor-slider:not(.swiper-container-initialized,.swiper-initialized) .swiper-slide{max-width:calc(100% / var(--slides-per-view,4))}.etheme-elementor-slider[data-animation]:not(.swiper-container-initialized,.swiper-initialized,[data-animation=slide],[data-animation=coverflow]) .swiper-slide{max-width:100%}body:not([data-elementor-device-mode]) .etheme-elementor-off-canvas__container{transition:none;opacity:0;visibility:hidden;position:fixed}</style></head>
+<body class="error404 wp-custom-logo wp-theme-xstore wp-child-theme-waffen-bassing theme-xstore woocommerce-no-js et_is-classic-theme et_cart-type-1 et_b_dt_header-not-overlap et_b_mob_header-not-overlap  et-preloader-off et-catalog-off et-enable-swatch elementor-default elementor-kit-58" data-mode="light">
+
+
+
+<div class="template-container">
+
+		<div class="template-content">
+		<div class="page-wrapper">
+			<header id="header" class="site-header sticky"  data-type="sticky"><div class="header-wrapper">
+<div class="header-top-wrapper ">
+	<div class="header-top" data-title="Header top">
+		<div class="et-row-container et-container">
+			<div class="et-wrap-columns flex align-items-center">		
+				
+		
+        <div class="et_column et_col-xs-10 et_col-xs-offset-2">
+			
+
+<div class="et_element et_b_header-contacts  et_element-top-level  justify-content-end  flex-inline text-nowrap" >
+	        <div class="contact contact-Phone icon-left  flex-inline  justify-content-end"
+             data-tooltip="Phone"         >
+			
+			            <span class="flex-inline justify-content-center flex-nowrap">
+						<span class="contact-icon flex-inline justify-content-center align-items-center">
+							<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path d="M22.080 16.488c-3.504-2.808-4.776-1.44-6.144 0l-0.24 0.24c-0.24 0.216-0.936 0-1.752-0.528-0.912-0.6-2.040-1.584-3.288-2.832-4.128-4.152-3.384-5.016-3.336-5.040l0.24-0.24c1.416-1.392 2.736-2.688-0.072-6.144-0.936-1.152-1.872-1.728-2.832-1.776-1.368-0.096-2.496 1.080-3.336 1.968-0.12 0.144-0.264 0.288-0.408 0.432-1.032 1.008-1.056 3.192-0.048 5.832 1.056 2.832 3.192 5.952 6 8.736 2.76 2.76 5.856 4.896 8.736 6 1.32 0.504 2.496 0.744 3.504 0.744 1.032 0 1.848-0.264 2.328-0.744 0.144-0.12 0.312-0.264 0.456-0.432 0.912-0.864 2.040-1.944 1.992-3.36-0.024-0.96-0.624-1.896-1.8-2.856zM6.744 7.224l-0.24 0.24c-1.128 1.152-0.096 3.216 3.384 6.672 1.344 1.344 2.496 2.328 3.48 2.976 1.44 0.936 2.52 1.056 3.192 0.36l0.264-0.264c1.296-1.296 1.944-1.944 4.584 0.168 0.888 0.72 1.344 1.368 1.368 1.968 0.024 0.912-0.936 1.8-1.632 2.448-0.192 0.144-0.336 0.312-0.48 0.456-0.672 0.648-2.544 0.552-4.656-0.24-2.64-0.984-5.616-3-8.328-5.712-2.688-2.592-4.704-5.544-5.76-8.28-0.768-2.136-0.864-4.008-0.216-4.632 0.072-0.072 0.144-0.168 0.216-0.24s0.144-0.144 0.216-0.24c0.744-0.816 1.56-1.632 2.4-1.632h0.072c0.624 0.024 1.272 0.48 1.968 1.344 2.136 2.664 1.44 3.36 0.168 4.608zM19.008 10.104c0.096 0.048 0.168 0.048 0.24 0.048 0.24 0 0.432-0.144 0.528-0.36 0.648-1.584 0.264-3.408-0.96-4.632-1.248-1.248-3.168-1.608-4.8-0.888-0.144 0.048-0.264 0.168-0.312 0.312s-0.048 0.312 0 0.432c0.048 0.144 0.168 0.264 0.312 0.312s0.312 0.048 0.456-0.024c1.176-0.528 2.592-0.288 3.504 0.624 0.888 0.888 1.152 2.232 0.696 3.384-0.072 0.336 0.072 0.696 0.336 0.792zM12.504 1.896c0.144 0.048 0.312 0.048 0.456-0.024 2.592-1.176 5.712-0.6 7.752 1.416 1.968 1.968 2.568 4.896 1.512 7.488-0.12 0.288 0.048 0.648 0.312 0.744 0.096 0.048 0.168 0.048 0.24 0.048 0.24 0 0.456-0.144 0.504-0.336 1.224-3.024 0.552-6.456-1.752-8.76-2.376-2.376-6-3.024-9.024-1.656-0.144 0.048-0.264 0.168-0.312 0.312s-0.048 0.312 0 0.432c0.048 0.168 0.168 0.264 0.312 0.336z"></path></svg>						</span>
+												<span class="contact-info ">
+							06131 / 23 40 14						</span>
+					</span>
+        </div>
+		<span class="et_b_header-contact-sep align-self-center"></span>		        <div class="contact contact-Öffnungszeiten icon-left  flex-inline  justify-content-end"
+             data-tooltip="Öffnungszeiten"         >
+			
+			            <span class="flex-inline justify-content-center flex-nowrap">
+						<span class="contact-icon flex-inline justify-content-center align-items-center">
+							<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path d="M23.779 9.632l-1.915-1.75v-5.347c0-0.331-0.346-0.602-0.677-0.602l-4.349-0.046c-0.331 0-0.602 0.269-0.602 0.602v1.039l-3.857-3.122c-0.221-0.18-0.54-0.18-0.758 0l-11.398 9.226c-0.257 0.209-0.298 0.59-0.091 0.85 0.115 0.142 0.286 0.223 0.473 0.223 0.139 0 0.274-0.048 0.377-0.134l1.188-0.96v13.517c0 0.331 0.271 0.602 0.605 0.602h6.47c0.357 0 0.646-0.289 0.646-0.646v-9.122h4.219v9.122c0 0.357 0.289 0.646 0.646 0.646h6.47c0.334 0 0.605-0.271 0.605-0.602v-13.517l1.188 0.96c0.125 0.101 0.283 0.149 0.444 0.132 0.149-0.017 0.283-0.086 0.384-0.199l0.022-0.022c0.206-0.259 0.166-0.638-0.089-0.85zM15.317 22.522v-9.768h-6.634v9.768h-5.306v-13.886l8.623-6.969 5.443 4.399v-2.969h3.18v6.586l0.007 12.84h-5.314z"></path></svg>						</span>
+												<span class="contact-info ">
+							Mo, Mi, Do, Fr. 9:30 - 12:30 & 14:30 - 18:00 Uhr, Di geschlossen.						</span>
+					</span>
+        </div>
+		<span class="et_b_header-contact-sep align-self-center"></span>		        <div class="contact contact-Öffnugszeiten icon-left  flex-inline  justify-content-end"
+             data-tooltip="Öffnugszeiten"         >
+			
+			            <span class="flex-inline justify-content-center flex-nowrap">
+						<span class="contact-icon flex-inline justify-content-center align-items-center">
+							<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path d="M23.779 9.632l-1.915-1.75v-5.347c0-0.331-0.346-0.602-0.677-0.602l-4.349-0.046c-0.331 0-0.602 0.269-0.602 0.602v1.039l-3.857-3.122c-0.221-0.18-0.54-0.18-0.758 0l-11.398 9.226c-0.257 0.209-0.298 0.59-0.091 0.85 0.115 0.142 0.286 0.223 0.473 0.223 0.139 0 0.274-0.048 0.377-0.134l1.188-0.96v13.517c0 0.331 0.271 0.602 0.605 0.602h6.47c0.357 0 0.646-0.289 0.646-0.646v-9.122h4.219v9.122c0 0.357 0.289 0.646 0.646 0.646h6.47c0.334 0 0.605-0.271 0.605-0.602v-13.517l1.188 0.96c0.125 0.101 0.283 0.149 0.444 0.132 0.149-0.017 0.283-0.086 0.384-0.199l0.022-0.022c0.206-0.259 0.166-0.638-0.089-0.85zM15.317 22.522v-9.768h-6.634v9.768h-5.306v-13.886l8.623-6.969 5.443 4.399v-2.969h3.18v6.586l0.007 12.84h-5.314z"></path></svg>						</span>
+												<span class="contact-info ">
+							Jeden 1. Sa im Monat von 10-14 Uhr geöffnet!						</span>
+					</span>
+        </div>
+				</div>
+
+        </div>
+	</div>		</div>
+	</div>
+</div>
+
+<div class="header-main-wrapper sticky">
+	<div class="header-main" data-title="Header main">
+		<div class="et-row-container et-container">
+			<div class="et-wrap-columns flex align-items-center">		
+				
+		
+        <div class="et_column et_col-xs-2 et_col-xs-offset-0">
+			
+
+    <div class="et_element et_b_header-logo align-start mob-align-start et_element-top-level" >
+        <a href="https://waffen-bassing.de">
+            <span><img width="203" height="143" src="https://waffen-bassing.de/wp-content/uploads/2021/08/waffen-bassing.svg" class="et_b_header-logo-img" alt="" decoding="async" /></span><span class="fixed"><img width="203" height="143" src="https://waffen-bassing.de/wp-content/uploads/2021/08/waffen-bassing.svg" class="et_b_header-logo-img" alt="" decoding="async" /></span>            
+        </a>
+    </div>
+
+        </div>
+			
+				
+		
+        <div class="et_column et_col-xs-7 et_col-xs-offset-0 pos-static">
+			
+
+<style>                .connect-block-element-eqYJD {
+                    --connect-block-space: 5px;
+                    margin: 0 -5px;
+                }
+                .et_element.connect-block-element-eqYJD > div,
+                .et_element.connect-block-element-eqYJD > form.cart,
+                .et_element.connect-block-element-eqYJD > .price {
+                    margin: 0 5px;
+                }
+                                    .et_element.connect-block-element-eqYJD > .et_b_header-widget > div, 
+                    .et_element.connect-block-element-eqYJD > .et_b_header-widget > ul {
+                        margin-left: 5px;
+                        margin-right: 5px;
+                    }
+                    .et_element.connect-block-element-eqYJD .widget_nav_menu .menu > li > a {
+                        margin: 0 5px                    }
+/*                    .et_element.connect-block-element-eqYJD .widget_nav_menu .menu .menu-item-has-children > a:after {
+                        right: 5px;
+                    }*/
+                </style><div class="et_element et_connect-block flex flex-row connect-block-element-eqYJD align-items-center justify-content-center">
+
+<div class="et_element et_b_header-menu header-main-menu flex align-items-center menu-items-underline  justify-content-center et_element-top-level" >
+	<div class="menu-main-container"><ul id="menu-hauptmenue" class="menu"><li id="menu-item-24" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-24 item-level-0 item-design-dropdown"><a href="https://waffen-bassing.de/" class="item-link">Startseite</a></li>
+<li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23 item-level-0 item-design-dropdown"><a href="https://waffen-bassing.de/sortiment/" class="item-link">Sortiment</a></li>
+<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22 item-level-0 item-design-dropdown"><a href="https://waffen-bassing.de/werkstatt-service/" class="item-link">Werkstatt &amp; Service</a></li>
+<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21 item-level-0 item-design-dropdown"><a href="https://waffen-bassing.de/ueber-uns/" class="item-link">Über Uns</a></li>
+<li id="menu-item-51" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-51 item-level-0 item-design-dropdown"><a href="https://waffen-bassing.de/shop/" class="item-link">Shop</a></li>
+</ul></div></div>
+
+</div>        </div>
+			
+				
+		
+        <div class="et_column et_col-xs-3 et_col-xs-offset-0 pos-static">
+			
+
+<style>                .connect-block-element-pEkPT {
+                    --connect-block-space: 0px;
+                    margin: 0 -0px;
+                }
+                .et_element.connect-block-element-pEkPT > div,
+                .et_element.connect-block-element-pEkPT > form.cart,
+                .et_element.connect-block-element-pEkPT > .price {
+                    margin: 0 0px;
+                }
+                                    .et_element.connect-block-element-pEkPT > .et_b_header-widget > div, 
+                    .et_element.connect-block-element-pEkPT > .et_b_header-widget > ul {
+                        margin-left: 0px;
+                        margin-right: 0px;
+                    }
+                    .et_element.connect-block-element-pEkPT .widget_nav_menu .menu > li > a {
+                        margin: 0 0px                    }
+/*                    .et_element.connect-block-element-pEkPT .widget_nav_menu .menu .menu-item-has-children > a:after {
+                        right: 0px;
+                    }*/
+                </style><div class="et_element et_connect-block flex flex-row connect-block-element-pEkPT align-items-center justify-content-end">
+
+<div class="et_element et_b_header-html_block header-html_block1" ><div class="aws-container" data-url="/?wc-ajax=aws_action" data-siteurl="https://waffen-bassing.de" data-lang="" data-show-loader="true" data-show-more="true" data-show-page="true" data-ajax-search="true" data-show-clear="true" data-mobile-screen="true" data-use-analytics="false" data-min-chars="1" data-buttons-order="2" data-timeout="300" data-is-mobile="false" data-page-id="0" data-tax="" ><form class="aws-search-form" action="https://waffen-bassing.de/" method="get" role="search" ><div class="aws-wrapper"><label class="aws-search-label" for="6a0ef1f238a7a">Suche</label><input type="search" name="s" id="6a0ef1f238a7a" value="" class="aws-search-field" placeholder="Suche" autocomplete="off" /><input type="hidden" name="post_type" value="product"><input type="hidden" name="type_aws" value="true"><div class="aws-search-clear"><span>×</span></div><div class="aws-loader"></div></div><div class="aws-search-btn aws-form-btn"><span class="aws-search-btn_icon"><svg focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24px"><path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"></path></svg></span></div></form></div></div>
+
+
+  
+
+<div class="et_element et_b_header-account flex align-items-center  login-link account-type1 et-content-dropdown et-content-toTop et_element-top-level" >
+	
+    <a href="https://waffen-bassing.de/mein-konto/"
+       class=" flex full-width align-items-center  justify-content-center mob-justify-content-start">
+			<span class="flex-inline justify-content-center align-items-center flex-wrap">
+
+				                    <span class="et_b-icon">
+						<svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path d="M16.848 12.168c1.56-1.32 2.448-3.216 2.448-5.232 0-3.768-3.072-6.84-6.84-6.84s-6.864 3.072-6.864 6.84c0 2.016 0.888 3.912 2.448 5.232-4.080 1.752-6.792 6.216-6.792 11.136 0 0.36 0.288 0.672 0.672 0.672h21.072c0.36 0 0.672-0.288 0.672-0.672-0.024-4.92-2.76-9.384-6.816-11.136zM12.432 1.44c3.048 0 5.52 2.472 5.52 5.52 0 1.968-1.056 3.792-2.76 4.776l-0.048 0.024c0 0 0 0-0.024 0-0.048 0.024-0.096 0.048-0.144 0.096h-0.024c-0.792 0.408-1.632 0.624-2.544 0.624-3.048 0-5.52-2.472-5.52-5.52s2.52-5.52 5.544-5.52zM9.408 13.056c0.96 0.48 1.968 0.72 3.024 0.72s2.064-0.24 3.024-0.72c3.768 1.176 6.576 5.088 6.816 9.552h-19.68c0.264-4.44 3.048-8.376 6.816-9.552z"></path></svg>					</span>
+								
+								
+				
+			</span>
+    </a>
+		
+	</div>
+
+
+	
+
+<div class="et_element et_b_header-cart  flex align-items-center cart-type1  et-quantity-right et-content-right et-content-dropdown et-content-toTop et_element-top-level" >
+	        <a href="https://waffen-bassing.de/warenkorb/" class=" flex flex-wrap full-width align-items-center  justify-content-end mob-justify-content-start currentColor">
+			<span class="flex-inline justify-content-center align-items-center
+			">
+
+									
+					                        <span class="et_b-icon">
+							<span class="et-svg"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"><path d="M20.232 5.352c-0.024-0.528-0.456-0.912-0.936-0.912h-2.736c-0.12-2.448-2.112-4.392-4.56-4.392s-4.464 1.944-4.56 4.392h-2.712c-0.528 0-0.936 0.432-0.936 0.936l-0.648 16.464c-0.024 0.552 0.168 1.104 0.552 1.512s0.888 0.624 1.464 0.624h13.68c0.552 0 1.056-0.216 1.464-0.624 0.36-0.408 0.552-0.936 0.552-1.488l-0.624-16.512zM12 1.224c1.8 0 3.288 1.416 3.408 3.216l-6.816-0.024c0.12-1.776 1.608-3.192 3.408-3.192zM7.44 5.616v1.968c0 0.336 0.264 0.6 0.6 0.6s0.6-0.264 0.6-0.6v-1.968h6.792v1.968c0 0.336 0.264 0.6 0.6 0.6s0.6-0.264 0.6-0.6v-1.968h2.472l0.624 16.224c-0.024 0.24-0.12 0.48-0.288 0.648s-0.384 0.264-0.6 0.264h-13.68c-0.24 0-0.456-0.096-0.624-0.264s-0.24-0.384-0.216-0.624l0.624-16.248h2.496z"></path></svg></span>							        <span class="et-cart-quantity et-quantity count-0">
+              0            </span>
+								</span>
+					
+									
+					
+												</span>
+        </a>
+		        <span class="et-cart-quantity et-quantity count-0">
+              0            </span>
+				    <div class="et-mini-content">
+		        <div class="et-content">
+			
+							                    <div class="widget woocommerce widget_shopping_cart">
+                        <div class="widget_shopping_cart_content">
+                            <div class="woocommerce-mini-cart cart_list product_list_widget ">
+								        <div class="woocommerce-mini-cart__empty-message empty">
+            <p>Keine Produkte im Warenkorb.</p>
+			                <a class="btn" href="https://waffen-bassing.de/shop/"><span>Zurück zum Shop</span></a>
+			        </div>
+		                            </div>
+                        </div>
+                    </div>
+							
+            <div class="woocommerce-mini-cart__footer-wrapper">
+				
+        <div class="product_list-popup-footer-inner"  style="display: none;">
+
+            <div class="cart-popup-footer">
+                <a href="https://waffen-bassing.de/warenkorb/"
+                   class="btn-view-cart wc-forward">Shopping cart                     (0)</a>
+                <div class="cart-widget-subtotal woocommerce-mini-cart__total total"
+                     data-amount="0">
+					<span class="small-h">Zwischensumme:</span> <span class="big-coast"><span class="woocommerce-Price-amount amount"><bdi>0,00&nbsp;<span class="woocommerce-Price-currencySymbol">&euro;</span></bdi></span></span>                </div>
+            </div>
+			
+			
+
+
+
+            <p class="buttons mini-cart-buttons">
+				<a href="https://waffen-bassing.de/warenkorb/" class="button wc-forward">Warenkorb anzeigen</a><a href="https://waffen-bassing.de/kasse/" class="button btn-checkout wc-forward">Kasse</a>            </p>
+			
+			
+        </div>
+		
+		            </div>
+        </div>
+    </div>
+	
+		</div>
+
+</div>        </div>
+	</div>		</div>
+	</div>
+</div>
+
+</div></header>
+
+	<div class="container">
+		<div class="page-content page-404">
+			<div class="row">
+				<div class="col-md-12">
+											<h2 class="largest">404</h2>
+						<h1>Diese Seite kann nicht gefunden werden</h1>
+						<p>Es sieht so aus, als ob an dieser Stelle nichts gefunden wurde. Versuchen Sie, zu suchen.</p>
+						<div class="widget_search">
+	<form action="https://waffen-bassing.de/" role="search" class="hide-input" method="get">
+		<div class="input-row">
+			<input type="text" name="s" placeholder="Suche..." />
+            <button type="submit"><i class="et-icon et-zoom"></i><span class="screen-reader-text">Suche</span></button>
+		</div>
+	</form>
+</div>									</div>
+			</div>
+		</div>
+	</div>
+
+    </div> <!-- page wrapper -->
+
+    </div> <!-- template-content -->
+
+        <div id="back-top" class="back-top">
+        <span class="et-icon et-right-arrow-2"></span>
+        <svg width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 150.621;" fill="none"></path>
+        </svg>
+    </div>
+        <div class="et-notify pos-fixed right" data-type=""></div>
+	        <div id="et-buffer" class="pos-absolute"></div>
+	    </div> <!-- template-container -->
+    		<footer data-elementor-type="footer" data-elementor-id="187" class="elementor elementor-187 elementor-location-footer" data-elementor-post-type="elementor_library">
+					<section class="elementor-section elementor-top-section elementor-element elementor-element-4744e5f elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="4744e5f" data-element_type="section" data-e-type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-faf931a" data-id="faf931a" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-62baab15 elementor-widget-divider--view-line_icon elementor-view-default elementor-widget-divider--element-align-center elementor-widget elementor-widget-divider" data-id="62baab15" data-element_type="widget" data-e-type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+							<div class="elementor-icon elementor-divider__element">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57.17 48.33"><defs><style>.bb7e0494-f857-48f0-8171-c069d9ee02fb{fill:#93ac78;fill-rule:evenodd;}</style></defs><g id="bd69649c-fb6f-4bfb-a8b3-92ce1fa6aa86" data-name="Ebene 2"><g id="b184e04d-d3e4-45cc-aba7-08d21e4335ed" data-name="Ebene 1"><g id="bcdb6ccd-15a9-42bd-8f94-9d46aa315896" data-name="Ebene 1"><path class="bb7e0494-f857-48f0-8171-c069d9ee02fb" d="M32.4,47.26c1.36-3.47,1.2-5.28,2-8a8.59,8.59,0,0,1,1.31-2.29A7.1,7.1,0,0,0,37,32.77a.74.74,0,0,1,.65-.86,9.28,9.28,0,0,0,5.18-3.53A6,6,0,0,0,44,25c-5.54.33-7.12,3.11-8.24,4.52L35,28.78a24.81,24.81,0,0,1,11.75-6.27c1.11-.24,2.22-.5,3.33-.72,3.52-.7,5.64-3,7.11-6.3a16.7,16.7,0,0,1-7.65,4.7c.74-.94,1.41-1.73,2-2.56A15.39,15.39,0,0,0,54,12.83c2.62-2.58,2.64-7.4,1.35-9.94,0,.21,0,.42.07.64a10.14,10.14,0,0,1-1,5.76A9.94,9.94,0,0,0,53,4.88,16.63,16.63,0,0,0,48.41,0c2.57,3,4.45,6.2,4,10.38C51,8.08,49.24,6.16,46.47,5.5c.17.12.35.23.52.36a9.61,9.61,0,0,1,4.09,5.56,4.27,4.27,0,0,1-.27,3A10.37,10.37,0,0,1,47,19.06a18.81,18.81,0,0,1-2.23,1c.76-2.84.45-5.23-1.43-7.28.18.53.37,1.06.53,1.59a5,5,0,0,1-1.15,5.11,44.79,44.79,0,0,1-4.47,3.83c.23-1.53.61-3-.24-4.54.29,4.11-4.92,9.5-9.36,9.27h0c-4.45.23-9.66-5.16-9.37-9.27-.85,1.53-.47,3-.24,4.54a47.16,47.16,0,0,1-4.47-3.83,5,5,0,0,1-1.15-5.11c.16-.53.36-1.06.53-1.59-1.88,2-2.18,4.44-1.42,7.28a19.78,19.78,0,0,1-2.24-1,10.37,10.37,0,0,1-3.86-4.6,4.33,4.33,0,0,1-.27-3,9.61,9.61,0,0,1,4.09-5.56c.17-.13.35-.24.53-.36-2.78.66-4.5,2.58-5.94,4.88C4.31,6.2,6.19,3,8.76,0A16.63,16.63,0,0,0,4.15,4.88,9.94,9.94,0,0,0,2.76,9.29a10.06,10.06,0,0,1-1-5.76l.06-.64C.53,5.43.55,10.25,3.18,12.83a15.16,15.16,0,0,0,2.45,4.8c.61.83,1.28,1.62,2,2.56A16.75,16.75,0,0,1,0,15.49c1.48,3.32,3.6,5.6,7.11,6.3,1.11.22,2.22.48,3.33.72a24.76,24.76,0,0,1,11.75,6.27l-.81.74c-1.12-1.41-2.7-4.19-8.24-4.52a6,6,0,0,0,1.17,3.38,9.32,9.32,0,0,0,5.18,3.53.74.74,0,0,1,.65.86,7.17,7.17,0,0,0,1.34,4.17,8.59,8.59,0,0,1,1.31,2.29c.79,2.75.62,4.56,2,8a1.22,1.22,0,0,0,.49.52,7.4,7.4,0,0,0,3.3.55,7.69,7.69,0,0,0,3.38-.57,1.15,1.15,0,0,0,.46-.5"></path></g></g></g></svg></div>
+						</span>
+		</div>
+						</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-5bdc1c6 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="5bdc1c6" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-64cd8b1" data-id="64cd8b1" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-e0ffce6 elementor-widget elementor-widget-heading" data-id="e0ffce6" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-medium">Wir sind Fachhandelspartner:</h5>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-030054c elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="030054c" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b683b38" data-id="b683b38" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-534da1d elementor-widget elementor-widget-image" data-id="534da1d" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="212" height="300" src="https://waffen-bassing.de/wp-content/uploads/xstore/xstore-placeholder-300x300.png" class="attachment-medium size-medium wp-image-7222 lazyload lazyload-simple et-lazyload-fadeIn" alt="" sizes="(max-width: 212px) 100vw, 212px" data-src="https://waffen-bassing.de/wp-content/uploads/2021/09/Screenshot-2025-10-04-at-14-00-06-complete.pdf-212x300.png" data-srcset="https://waffen-bassing.de/wp-content/uploads/2021/09/Screenshot-2025-10-04-at-14-00-06-complete.pdf-212x300.png 212w, https://waffen-bassing.de/wp-content/uploads/2021/09/Screenshot-2025-10-04-at-14-00-06-complete.pdf-1x1.png 1w, https://waffen-bassing.de/wp-content/uploads/2021/09/Screenshot-2025-10-04-at-14-00-06-complete.pdf-7x10.png 7w, https://waffen-bassing.de/wp-content/uploads/2021/09/Screenshot-2025-10-04-at-14-00-06-complete.pdf.png 555w" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-893b9c7" data-id="893b9c7" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-79c75af elementor-widget elementor-widget-image" data-id="79c75af" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="120" height="138" src="https://waffen-bassing.de/wp-content/uploads/xstore/xstore-placeholder-300x300.png" class="attachment-medium size-medium wp-image-625 lazyload lazyload-simple et-lazyload-fadeIn" alt="" sizes="(max-width: 120px) 100vw, 120px" data-src="https://waffen-bassing.de/wp-content/uploads/2021/09/logo.png" data-srcset="https://waffen-bassing.de/wp-content/uploads/2021/09/logo.png 120w, https://waffen-bassing.de/wp-content/uploads/2021/09/logo-1x1.png 1w" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3415ab1" data-id="3415ab1" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-34fec21 elementor-widget elementor-widget-image" data-id="34fec21" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="300" height="120" src="https://waffen-bassing.de/wp-content/uploads/elementor/thumbs/xstore-placeholder-pbw4ngtk58ajl3ke0hot5x4vlbshqshokcp2ms0w2w.png" class="attachment-medium size-medium wp-image-545 lazyload lazyload-simple et-lazyload-fadeIn" alt="" sizes="(max-width: 300px) 100vw, 300px" data-src="https://waffen-bassing.de/wp-content/uploads/2021/09/VDB_Logo_Mitglieder_v2-300x120.jpg" data-srcset="https://waffen-bassing.de/wp-content/uploads/2021/09/VDB_Logo_Mitglieder_v2-300x120.jpg 300w, https://waffen-bassing.de/wp-content/uploads/2021/09/VDB_Logo_Mitglieder_v2-800x319.jpg 800w, https://waffen-bassing.de/wp-content/uploads/2021/09/VDB_Logo_Mitglieder_v2-768x306.jpg 768w, https://waffen-bassing.de/wp-content/uploads/2021/09/VDB_Logo_Mitglieder_v2-1x1.jpg 1w, https://waffen-bassing.de/wp-content/uploads/2021/09/VDB_Logo_Mitglieder_v2-10x4.jpg 10w, https://waffen-bassing.de/wp-content/uploads/2021/09/VDB_Logo_Mitglieder_v2.jpg 900w" />															</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-6e1a8d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6e1a8d0" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-e0f0463" data-id="e0f0463" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-ef97372 elementor-widget elementor-widget-heading" data-id="ef97372" data-element_type="widget" data-e-type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h5 class="elementor-heading-title elementor-size-medium">Der Alljagd Katalog ist kostenfrei bei uns im Ladengeschäft erhältlich.</h5>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-697511a elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="697511a" data-element_type="section" data-e-type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-801fa8e" data-id="801fa8e" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-a3ef718 elementor-widget elementor-widget-image" data-id="a3ef718" data-element_type="widget" data-e-type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img width="203" height="183" src="https://waffen-bassing.de/wp-content/uploads/xstore/xstore-placeholder-1024x1024.png" class="attachment-large size-large wp-image-617 lazyload lazyload-simple et-lazyload-fadeIn" alt="" data-src="https://waffen-bassing.de/wp-content/uploads/2021/09/wb-logo-full-white.svg" />															</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-b9f6faa" data-id="b9f6faa" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-7ddf693 elementor-widget elementor-widget-text-editor" data-id="7ddf693" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<h4>Waffen-Bassing GmbH</h4><p>Augustinerstr. 60 &#8211; 62<br />55116 Mainz</p><p>Tel.: 06131 / 23 40 14<br />Fax: 06131 / 23 84 85</p><p>info@waffen-bassing.de<br />www.waffen-bassing.de</p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-c5693ff" data-id="c5693ff" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-efa3092 elementor-widget elementor-widget-text-editor" data-id="efa3092" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<h4>Öffnungszeiten</h4><p>Montag, Mittwoch, Donnerstag, Freitag:<br />9:30 &#8211; 12:30 und                                                       <span style="font-family: inherit; font-size: inherit;">14:30 &#8211; 18:00 Uhr</span></p><p>Dienstag geschlossen</p><p>1. Samstag im Monat:<br />10:00 &#8211; 14:00 Uh</p>								</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-cbcc136" data-id="cbcc136" data-element_type="column" data-e-type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-0eb5c6c elementor-widget elementor-widget-text-editor" data-id="0eb5c6c" data-element_type="widget" data-e-type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<h4>Informationen</h4><p><a href="/anfahrtsbeschreibung/">Anfahrtsbeschreibung</a></p><p><a href="https://waffen-bassing.de/hinweisverpflichtung-gem-%c2%a735-abs-2-satz-2-waffg/">Hinweisverpflichtung gem. §35 Abs. 2 Satz 2 WaffG</a></p><p><a href="/versandarten/">Versandarten</a></p><p><a href="/impressum">Impressu</a>m</p><p><a href="/datenschutzerklaerung/">Datenschutzerklärung</a></p><p><a href="/allgemeine-geschaeftsbedingungen/">AGB</a></p><p><a href="/vertrag-widerrufen/">Vertrag widerrufen</a></p>								</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+				</footer>
+		
+
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/waffen-bassing/*","/wp-content/themes/xstore/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+<style id='xstore-inline-css-inline-css' type='text/css'>
+.et_b_header-contacts.et_element-top-level .contact:not(:last-child) + .et_b_header-contact-sep:before {
+                            content: "\2502";}
+/*# sourceURL=xstore-inline-css-inline-css */
+</style>
+<style id='xstore-inline-tablet-css-inline-css' type='text/css'>
+@media only screen and (max-width: 992px) {
+}
+/*# sourceURL=xstore-inline-tablet-css-inline-css */
+</style>
+<style id='xstore-inline-mobile-css-inline-css' type='text/css'>
+@media only screen and (max-width: 767px) {
+}
+/*# sourceURL=xstore-inline-mobile-css-inline-css */
+</style>
+<script type="importmap" id="wp-importmap">
+{"imports":{"borlabs-cookie-core":"https://waffen-bassing.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie.min.js?ver=3.4"}}
+</script>
+<script type="module" src="https://waffen-bassing.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie.min.js?ver=3.4" id="borlabs-cookie-core-js-module" data-cfasync="false" data-no-minify="1" data-no-optimize="1"></script>
+<script type="module" src="https://waffen-bassing.de/wp-content/plugins/borlabs-cookie/assets/javascript/borlabs-cookie-legacy-backward-compatibility.min.js?ver=3.4" id="borlabs-cookie-legacy-backward-compatibility-js-module"></script>
+
+            <script>
+                window.addEventListener('load', function() {
+                    if (window.jQuery) {
+                        jQuery( document ).on( 'elementor/popup/show', function() {
+                            window.setTimeout(function(){
+                                jQuery('.elementor-container .aws-container, .elementor-popup-modal .aws-container').each( function() {
+                                    jQuery(this).aws_search();
+                                });
+                            }, 1000);
+                        } );
+                    }
+                }, false);
+            </script>
+
+        <!--googleoff: all--><div data-nosnippet data-borlabs-cookie-consent-required='true' id='BorlabsCookieBox'></div><div id='BorlabsCookieWidget' class='brlbs-cmpnt-container'></div><!--googleon: all-->			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+				<script type='text/javascript'>
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel='stylesheet' id='wc-blocks-style-css' href='https://waffen-bassing.de/wp-content/plugins/woocommerce/assets/client/blocks/wc-blocks.css?ver=wc-10.7.0' type='text/css' media='all' />
+<script type="text/javascript" id="aws-script-js-extra">
+/* <![CDATA[ */
+var aws_vars = {"sale":"Abverkauf!","sku":"SKU: ","showmore":"Alle Ergebnisse anzeigen","noresults":"Nichts gefunden"};
+//# sourceURL=aws-script-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/advanced-woo-search/assets/js/common.min.js?ver=3.61" id="aws-script-js"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/themes/waffen-bassing/scripts.js?ver=6.9.4" id="general-scripts-js"></script>
+<script type="text/javascript" id="etheme_general_all_js-js-extra">
+/* <![CDATA[ */
+var etheme_search_config = {"noResults":"Es wurden keine Ergebnisse gefunden!","product":"Produkte","page":"Seiten","post":"Beitr\u00e4ge","etheme_portfolio":"Portfolio","product_found":"{{count}} Products found","page_found":"{{count}} Pages found","post_found":"{{count}} Posts found","etheme_portfolio_found":"{{count}} Portfolio found","custom_post_type_found":"{{count}} {{post_type}} found","show_more":"Show {{count}} more","show_all":"View all results","items_found":"{{count}} items found","item_found":"{{count}} item found"};
+var etheme_facebook_sdk_config = {"facebook_sdk":{"lang":"de_DE","app_id":""}};
+var etheme_lottie_config = {"defaultAnimationUrl":"https://waffen-bassing.de/wp-content/plugins/et-core-plugin/app/assets/js/lottie-default.json"};
+var etheme_canvas_sidebar_config = {"open_action":"click","close_action":"click touchstart"};
+var etheme_pjax_config = {"is_etheme_pjax":"1"};
+var etConfig = {"noresults":"Es wurden keine Ergebnisse gefunden!","ajaxSearchResultsArrow":"\u003Csvg version=\"1.1\" width=\"1em\" height=\"1em\" class=\"arrow\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 100 100\" style=\"enable-background:new 0 0 100 100;\" xml:space=\"preserve\"\u003E\u003Cpath d=\"M99.1186676,94.8567734L10.286458,6.0255365h53.5340881c1.6616173,0,3.0132561-1.3516402,3.0132561-3.0127683\n\tS65.4821625,0,63.8205452,0H3.0137398c-1.6611279,0-3.012768,1.3516402-3.012768,3.0127683v60.8068047\n\tc0,1.6616135,1.3516402,3.0132523,3.012768,3.0132523s3.012768-1.3516388,3.012768-3.0132523V10.2854862L94.8577423,99.117691\n\tC95.4281311,99.6871109,96.1841202,100,96.9886856,100c0.8036041,0,1.5595856-0.3128891,2.129982-0.882309\n\tC100.2924805,97.9419327,100.2924805,96.0305862,99.1186676,94.8567734z\"\u003E\u003C/path\u003E\u003C/svg\u003E","successfullyAdded":"Produkt hinzugef\u00fcgt.","successfullyRemoved":"Product removed.","successfullyUpdated":"Product quantity updated.","successfullyCopied":"Copied to clipboard","saleStarts":"Sale starts in:","saleFinished":"This sale already finished","confirmQuestion":"Are you sure?","viewCart":"Warenkorb anzeigen","cartPageUrl":"https://waffen-bassing.de/warenkorb/","checkCart":"Bitte \u00fcberpr\u00fcfen Sie Ihre \u003Ca href='https://waffen-bassing.de/warenkorb/'\u003EWarenkorb.\u003C/a\u003E","contBtn":"Weiter einkaufen","checkBtn":"Kasse","ajaxProductAddedNotify":{"type":"alert","linked_products_type":"upsell"},"variationGallery":"","quickView":{"type":"popup","position":"right","layout":"default","variationGallery":""},"speedOptimization":{"imageLoadingOffset":"200px"},"popupAddedToCart":[],"builders":{"is_wpbakery":false},"Product":"Produkte","Pages":"Seiten","Post":"Beitr\u00e4ge","Portfolio":"Portfolio","Product_found":"{{count}} Products found","Pages_found":"{{count}} Pages found","Post_found":"{{count}} Posts found","Portfolio_found":"{{count}} Portfolio found","show_more":"Show {{count}} more","show_all":"View all results","items_found":"{{count}} items found","item_found":"{{count}} item found","single_product_builder":"","fancy_select_categories":"","is_search_history":"0","search_history_length":"7","search_type":"icon","search_ajax_history_time":"5","noSuggestionNoticeWithMatches":"Es wurden keine Ergebnisse gefunden!\u003Cp\u003ENo items matched your search {{search_value}}.\u003C/p\u003E","ajaxurl":"https://waffen-bassing.de/wp-admin/admin-ajax.php","woocommerceSettings":{"is_woocommerce":true,"is_swatches":true,"ajax_filters":false,"ajax_pagination":false,"is_single_product_builder":false,"mini_cart_content_quantity_input":false,"widget_show_more_text":"more","widget_show_less_text":"Show less","sidebar_off_canvas_icon":"\u003Csvg version=\"1.1\" width=\"1em\" height=\"1em\" id=\"Layer_1\" xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 100 100\" style=\"enable-background:new 0 0 100 100;\" xml:space=\"preserve\"\u003E\u003Cpath d=\"M94.8,0H5.6C4,0,2.6,0.9,1.9,2.3C1.1,3.7,1.3,5.4,2.2,6.7l32.7,46c0,0,0,0,0,0c1.2,1.6,1.8,3.5,1.8,5.5v37.5c0,1.1,0.4,2.2,1.2,3c0.8,0.8,1.8,1.2,3,1.2c0.6,0,1.1-0.1,1.6-0.3l18.4-7c1.6-0.5,2.7-2.1,2.7-3.9V58.3c0-2,0.6-3.9,1.8-5.5c0,0,0,0,0,0l32.7-46c0.9-1.3,1.1-3,0.3-4.4C97.8,0.9,96.3,0,94.8,0z M61.4,49.7c-1.8,2.5-2.8,5.5-2.8,8.5v29.8l-16.8,6.4V58.3c0-3.1-1-6.1-2.8-8.5L7.3,5.1h85.8L61.4,49.7z\"\u003E\u003C/path\u003E\u003C/svg\u003E","ajax_add_to_cart_archives":true,"cart_url":"https://waffen-bassing.de/warenkorb/","cart_redirect_after_add":false,"home_url":"https://waffen-bassing.de/","shop_url":"https://waffen-bassing.de/shop/","ajax_add_to_cart":1,"cart_progress_currency_pos":"right_space","cart_progress_thousand_sep":".","cart_progress_decimal_sep":",","cart_progress_num_decimals":"2","is_smart_addtocart":"","primary_attribute":"et_none"},"notices":{"ajax-filters":"Ajax-Fehler: Filterergebnis kann nicht abrufen","post-product":"Ajax-Fehler: Post/Produkt-Ergebnis kann nicht abrufen","products":"Ajax-Fehler: Produktergebnis kann nicht erzielt werden","posts":"Ajax-Fehler: Beitr\u00e4ge-Ergebnis kann nicht angezeigt werden","element":"Ajax-Fehler: Elementergebnis kann nicht abrufen","portfolio":"Ajax-Fehler: Problem mit ajax et_portfolio_ajax Aktion","portfolio-pagination":"Ajax-Fehler: Problem mit ajax et_portfolio_ajax_pagination Aktion","menu":"Ajax-Fehler: Problem mit ajax menu_posts Aktion","noMatchFound":"No matches found","variationGalleryNotAvailable":"Variation Gallery not available on variation id","localStorageFull":"Seems like your localStorage is full"},"layoutSettings":{"layout":"","is_rtl":false,"is_mobile":false,"mobHeaderStart":992,"menu_storage_key":"etheme_3ce748628a6191af1d762ea20bf5a85a","ajax_dropdowns_from_storage":1},"sidebar":{"closed_pc_by_default":""},"et_global":{"classes":{"skeleton":"skeleton-body","mfp":"et-mfp-opened"},"is_customize_preview":false,"mobHeaderStart":992},"etCookies":{"cache_time":3}};
+//# sourceURL=etheme_general_all_js-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/themes/xstore/js/general-all.min.js?ver=0.0.2" id="etheme_general_all_js-js" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="et-woo-swatches-js-extra">
+/* <![CDATA[ */
+var sten_wc_params = {"ajax_url":"https://waffen-bassing.de/wp-admin/admin-ajax.php","is_customize_preview":"","is_singular_product":"","show_selected_title":"both","stock_logic":"","show_select_type":"","show_select_type_price":"1","add_to_cart_btn_text":"Add to cart","read_more_btn_text":"Read More","read_more_about_btn_text":"about","read_more_for_btn_text":"for","select_options_btn_text":"Select options","i18n_no_matching_variations_text":"Sorry, no products matched your selection. Please choose a different combination."};
+//# sourceURL=et-woo-swatches-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/et-core-plugin/packages/st-woo-swatches/public/js/frontend-script.min.js?ver=1.0" id="et-woo-swatches-js"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=4.0.4" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" id="elementor-frontend-modules-js-before">
+/* <![CDATA[ */
+(function() {
+    const allFbWidgets = document.querySelectorAll('div.elementor-widget[data-widget_type^="facebook"]');
+    for (let fb of allFbWidgets) {
+        fb.dataset.widget_type = 'brlabs_' + fb.dataset.widget_type;
+    }
+})();
+(function() {
+    const allYtWidgets = document.querySelectorAll('div.elementor-widget-video[data-widget_type^="video."][data-settings*="youtube_url"]');
+    for (let yt of allYtWidgets) {
+        if (yt.dataset.brlbsUnblocked === 'true') {
+            continue;
+        }
+        yt.dataset.widget_type = 'brlbs_' + yt.dataset.widget_type;
+        yt.dataset.settings = yt.dataset.settings.replace('show_image_overlay', 'brlbs_dont_show_image_overlay');
+    }
+})();
+(function() {
+    window.addEventListener( 'elementor/frontend/init', function() {
+        let first = true;
+        elementorFrontend.hooks.addAction('frontend/element_ready/global', () => {
+            if (first === true) {
+                first = false;
+                const allYoutubeBgs = document.querySelectorAll('[data-brlbs-elementor-bg-video-yt="true"]');
+                if (allYoutubeBgs.length > 0) {
+                    const ytApiReadyOriginal = elementorFrontend.utils.youtube.onApiReady;
+                    let waitingYtCounter = 0;
+                    elementorFrontend.utils.youtube.onApiReady = (callback) => {
+                        document.addEventListener('brlbs_elementor_bgVideo_yt_unblocked', () => {
+                            ytApiReadyOriginal.call(elementorFrontend.utils.youtube, callback);
+                        });
+                        if (++waitingYtCounter === allYoutubeBgs.length) {
+                            elementorFrontend.utils.youtube.onApiReady = ytApiReadyOriginal;
+                            window.brlbsElementorBgVideoYtUnblockReady = { state: true };
+                        }
+                    }
+                }
+
+                const allVimeoBgs = document.querySelectorAll('[data-brlbs-elementor-bg-video-vimeo="true"]');
+                if (allVimeoBgs.length > 0) {
+                    const vimeoApiReadyOriginal = elementorFrontend.utils.vimeo.onApiReady;
+                    let waitingVimeoCounter = 0;
+                    elementorFrontend.utils.vimeo.onApiReady = (callback) => {
+                        document.addEventListener('brlbs_elementor_bgVideo_vimeo_unblocked', () => {
+                            vimeoApiReadyOriginal.call(elementorFrontend.utils.vimeo, callback);
+                        });
+                        if (++waitingVimeoCounter === allVimeoBgs.length) {
+                            elementorFrontend.utils.vimeo.onApiReady = vimeoApiReadyOriginal;
+                            window.brlbsElementorBgVideoVimeoUnblockReady = { state: true };
+                        }
+                    }
+                }
+            }
+        });
+    });
+})();
+//# sourceURL=elementor-frontend-modules-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=4.0.4" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-includes/js/jquery/ui/core.min.js?ver=1.13.3" id="jquery-ui-core-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Auf Facebook teilen","shareOnTwitter":"Auf Twitter teilen","pinIt":"Anheften","download":"Download","downloadImage":"Bild downloaden","fullscreen":"Vollbild","zoom":"Zoom","share":"Teilen","playVideo":"Video abspielen","previous":"Zur\u00fcck","next":"Weiter","close":"Schlie\u00dfen","a11yCarouselPrevSlideMessage":"Vorheriger Slide","a11yCarouselNextSlideMessage":"N\u00e4chster Slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobil Hochformat","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobil Querformat","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Hochformat","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Querformat","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Breitbild","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"4.0.4","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"theme_builder_v2":true,"nested-elements":true,"global_classes_should_enforce_capabilities":true,"e_variables":true,"e_opt_in_v4_page":true,"e_components":true,"e_interactions":true,"e_widget_creation":true,"import-export-customization":true,"e_pro_atomic_form":true,"e_pro_variables":true,"e_pro_interactions":true},"urls":{"assets":"https:\/\/waffen-bassing.de\/wp-content\/plugins\/elementor\/assets\/","ajaxurl":"https:\/\/waffen-bassing.de\/wp-admin\/admin-ajax.php","uploadUrl":"https:\/\/waffen-bassing.de\/wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"5779fab430","atomicFormsSendForm":"bb6835d82c"},"swiperClass":"swiper","settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","woocommerce_notices_elements":[]},"post":{"id":0,"title":"Seite wurde nicht gefunden. - Waffen-Bassing","excerpt":""}};
+//# sourceURL=elementor-frontend-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=4.0.4" id="elementor-frontend-js"></script>
+<script type="text/javascript" id="pwb-functions-frontend-js-extra">
+/* <![CDATA[ */
+var pwb_ajax_object = {"carousel_prev":"\u003C","carousel_next":"\u003E"};
+//# sourceURL=pwb-functions-frontend-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/perfect-woocommerce-brands/build/frontend/js/index.js?ver=25bf59070626bf26de92" id="pwb-functions-frontend-js"></script>
+<script type="text/javascript" id="alg-wc-pop-frontend-js-extra">
+/* <![CDATA[ */
+var alg_wc_pop_data_object = {"force_decimals":"","force_decimal_width":"2"};
+//# sourceURL=alg-wc-pop-frontend-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/product-open-pricing-name-your-price-for-woocommerce/includes/js/alg-wc-pop-frontend.js?ver=1.7.4" id="alg-wc-pop-frontend-js"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/woocommerce/assets/js/sourcebuster/sourcebuster.min.js?ver=10.7.0" id="sourcebuster-js-js"></script>
+<script type="text/javascript" id="wc-order-attribution-js-extra">
+/* <![CDATA[ */
+var wc_order_attribution = {"params":{"lifetime":1.0e-5,"session":30,"base64":false,"ajaxurl":"https://waffen-bassing.de/wp-admin/admin-ajax.php","prefix":"wc_order_attribution_","allowTracking":true},"fields":{"source_type":"current.typ","referrer":"current_add.rf","utm_campaign":"current.cmp","utm_source":"current.src","utm_medium":"current.mdm","utm_content":"current.cnt","utm_id":"current.id","utm_term":"current.trm","utm_source_platform":"current.plt","utm_creative_format":"current.fmt","utm_marketing_tactic":"current.tct","session_entry":"current_add.ep","session_start_time":"current_add.fd","session_pages":"session.pgs","session_count":"udata.vst","user_agent":"udata.uag"}};
+//# sourceURL=wc-order-attribution-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" id="wc-order-attribution-js-before">
+/* <![CDATA[ */
+if (typeof wc_order_attribution !== 'undefined' && typeof wc_order_attribution.params !== 'undefined' && typeof wc_order_attribution.params.allowTracking !== 'undefined') {
+    const cookies = document.cookie.split('; ');
+    let consentWcOrderAttribution = false;
+    for (let c of cookies) {
+    if (c.startsWith('borlabs-cookie=')) {
+            consentWcOrderAttribution = c.includes('%22wc-order-attribution%22');
+            break;
+        }
+    }
+    wc_order_attribution.params.allowTracking = consentWcOrderAttribution;
+}
+//# sourceURL=wc-order-attribution-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/woocommerce/assets/js/frontend/order-attribution.min.js?ver=10.7.0" id="wc-order-attribution-js"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/themes/xstore/js/mini-cart.min.js?ver=0.0.2" id="etheme_mini_cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/themes/xstore/js/modules/swiper.min.js?ver=0.0.2" id="et_swiper-slider-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/themes/xstore/js/elementor-all-widgets.min.js?ver=0.0.2" id="etheme_elementor_all_widgets_js-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/themes/xstore/js/woocommerce-all-scripts.min.js?ver=0.0.2" id="etheme_woocommerce_all_scripts-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="portfolio-js-extra">
+/* <![CDATA[ */
+var etPortfolioConfig = {"ajaxurl":"https://waffen-bassing.de/wp-admin/admin-ajax.php","layoutSettings":{"is_rtl":false}};
+//# sourceURL=portfolio-js-extra
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/themes/xstore/js/portfolio.min.js?ver=0.0.2" id="portfolio-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/themes/xstore/js/modules/fixedHeader.min.js?ver=0.0.2" id="fixed-header-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=4.0.3" id="elementor-pro-webpack-runtime-js"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-includes/js/dist/hooks.min.js?ver=dd5603f07f9220ed27f1" id="wp-hooks-js"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-includes/js/dist/i18n.min.js?ver=c26c3dc7bed366793375" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+//# sourceURL=wp-i18n-js-after
+/* ]]> */
+</script>
+<script type="text/javascript" id="elementor-pro-frontend-js-before">
+/* <![CDATA[ */
+var ElementorProFrontendConfig = {"ajaxurl":"https:\/\/waffen-bassing.de\/wp-admin\/admin-ajax.php","nonce":"862b9a0bf3","urls":{"assets":"https:\/\/waffen-bassing.de\/wp-content\/plugins\/elementor-pro\/assets\/","rest":"https:\/\/waffen-bassing.de\/wp-json\/"},"settings":{"lazy_load_background_images":true},"woocommerce":{"etheme_wishlist":{"fragments_nonce":"460fedf957"},"etheme_waitlist":{"fragments_nonce":"194bd3071d"},"etheme_compare":{"fragments_nonce":"7d4cfb9045"},"menu_cart":{"cart_page_url":"https:\/\/waffen-bassing.de\/warenkorb\/","checkout_page_url":"https:\/\/waffen-bassing.de\/kasse\/","fragments_nonce":"fdb855f652"}},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"de_DE","app_id":""},"lottie":{"defaultAnimationUrl":"https:\/\/waffen-bassing.de\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+//# sourceURL=elementor-pro-frontend-js-before
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=4.0.3" id="elementor-pro-frontend-js"></script>
+<script type="text/javascript" src="https://waffen-bassing.de/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=4.0.3" id="pro-elements-handlers-js"></script>
+<template id="brlbs-cmpnt-cb-template-vimeo-content-blocker">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="vimeo-content-blocker" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-c brlbs-cmpnt-cb-vimeo"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://waffen-bassing.de/wp-content/uploads/borlabs-cookie/1/brlbs-cb-vimeo-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-play-button"></div> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>Vimeo</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function () {
+    const allBackgroundContainerVimeo = document.querySelectorAll('[data-brlbs-elementor-bg-video-vimeo="true"]:not(:has(.brlbs-cmpnt-content-blocker))');
+
+    const getVimeoId = url => (url.match(/vimeo\.com\/(?:.*\/)?([0-9]+)/) || [])[1] || null;
+    const getThumbnailBackgroundImageUrl = (videoContainer) => {
+        const bgImageCss = window.getComputedStyle(videoContainer).backgroundImage;
+        if (bgImageCss != null && bgImageCss.startsWith('url(')) {
+            return bgImageCss;
+        }
+        if (true !== true) {
+            return null;
+        }
+        const settings = JSON.parse(videoContainer.dataset.settings)
+        if (settings == null || !settings.hasOwnProperty('background_video_link')) {
+            return null;
+        }
+        const vimeoId = getVimeoId(settings.background_video_link);
+        if (vimeoId == null) {
+            return null;
+        }
+        return 'url("https://waffen-bassing.de/wp-content/uploads/borlabs-cookie/1/vimeo_' + vimeoId + '.jpg")';
+    };
+
+    const template = document.getElementById('brlbs-cmpnt-cb-template-vimeo-content-blocker');
+    for (let videoContainer of allBackgroundContainerVimeo) {
+        const id = videoContainer.dataset.id
+        if (videoContainer && template) {
+            const videoEmbed = videoContainer.querySelector('.elementor-background-video-embed');
+            const cb = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+            cb.dataset.borlabsCookieContent = 'PHNjcmlwdD4KKGZ1bmN0aW9uKCkgewogICAgaWYgKHR5cGVvZiB3aW5kb3cuYnJsYnNFbGVtZW50b3JCZ1ZpZGVvVmltZW9VbmJsb2NrZWQgPT09ICd1bmRlZmluZWQnKSB7CiAgICAgICAgd2luZG93LmJybGJzRWxlbWVudG9yQmdWaWRlb1ZpbWVvVW5ibG9ja2VkID0gdHJ1ZTsKICAgICAgICBCb3JsYWJzQ29va2llLlRvb2xzLm9uRXhpc3QoJ2JybGJzRWxlbWVudG9yQmdWaWRlb1ZpbWVvVW5ibG9ja1JlYWR5JywgKCkgPT4gewogICAgICAgICAgICBkb2N1bWVudC5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudCgnYnJsYnNfZWxlbWVudG9yX2JnVmlkZW9fdmltZW9fdW5ibG9ja2VkJykpOwogICAgICAgIH0pOwogICAgfQp9KSgpCjwvc2NyaXB0Pg==';
+            if (videoEmbed.nextSibling) {
+                videoEmbed.parentNode.insertBefore(cb, videoEmbed.nextSibling);
+            } else {
+                videoEmbed.parentNode.appendChild(cb);
+            }
+
+            const bgImageCss = getThumbnailBackgroundImageUrl(videoContainer);
+            const thumb = cb.querySelector('.brlbs-cmpnt-cb-thumbnail')
+            if (bgImageCss != null && thumb != null) {
+                thumb.style.backgroundImage = bgImageCss;
+            }
+        }
+    }
+})();
+</script><template id="brlbs-cmpnt-cb-template-youtube-content-blocker">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="youtube-content-blocker" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-c brlbs-cmpnt-cb-youtube"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://waffen-bassing.de/wp-content/uploads/borlabs-cookie/1/brlbs-cb-youtube-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-play-button"></div> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>YouTube</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function () {
+    const allBackgroundContainerYt = document.querySelectorAll('[data-brlbs-elementor-bg-video-yt="true"]:not(:has(.brlbs-cmpnt-content-blocker))');
+
+    const getYouTubeId = url => (url.match(new RegExp("(?:youtube\.com\/(?:[^\/\n\s]+\/\S+\/|(?:v|e(?:mbed)?)\/|.*[?&]v=)|youtu\.be\/)([a-zA-Z0-9_-]{11})")) || [])[1] || null;
+    const getThumbnailBackgroundImageUrl = (videoContainer) => {
+        const bgImageCss = window.getComputedStyle(videoContainer).backgroundImage;
+        if (bgImageCss != null && bgImageCss.startsWith('url(')) {
+            return bgImageCss;
+        }
+        const thumbnailQuality = 'hqdefault';
+        if (thumbnailQuality === 'none' || videoContainer.dataset.settings == null) {
+            return null;
+        }
+        const settings = JSON.parse(videoContainer.dataset.settings)
+        if (settings == null || !settings.hasOwnProperty('background_video_link')) {
+            return null;
+        }
+        const ytId = getYouTubeId(settings.background_video_link);
+        if (ytId == null) {
+            return null;
+        }
+        return 'url("https://waffen-bassing.de/wp-content/uploads/borlabs-cookie/1/yt_' + ytId + '_' + thumbnailQuality + '.jpg")';
+    };
+
+    const template = document.getElementById('brlbs-cmpnt-cb-template-youtube-content-blocker');
+    for (let videoContainer of allBackgroundContainerYt) {
+        const id = videoContainer.dataset.id
+        if (videoContainer && template) {
+            const videoEmbed = videoContainer.querySelector('.elementor-background-video-embed');
+            const cb = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+            cb.dataset.borlabsCookieContent = 'PHNjcmlwdD4KKGZ1bmN0aW9uKCkgewogICAgaWYgKHR5cGVvZiB3aW5kb3cuYnJsYnNFbGVtZW50b3JCZ1ZpZGVvWXRVbmJsb2NrZWQgPT09ICd1bmRlZmluZWQnKSB7CiAgICAgICAgd2luZG93LmJybGJzRWxlbWVudG9yQmdWaWRlb1l0VW5ibG9ja2VkID0gdHJ1ZTsKICAgICAgICBCb3JsYWJzQ29va2llLlRvb2xzLm9uRXhpc3QoJ2JybGJzRWxlbWVudG9yQmdWaWRlb1l0VW5ibG9ja1JlYWR5JywgKCkgPT4gewogICAgICAgICAgICBkb2N1bWVudC5kaXNwYXRjaEV2ZW50KG5ldyBFdmVudCgnYnJsYnNfZWxlbWVudG9yX2JnVmlkZW9feXRfdW5ibG9ja2VkJykpOwogICAgICAgIH0pOwogICAgfQp9KSgpCjwvc2NyaXB0Pg==';
+            if (videoEmbed.nextSibling) {
+                videoEmbed.parentNode.insertBefore(cb, videoEmbed.nextSibling);
+            } else {
+                videoEmbed.parentNode.appendChild(cb);
+            }
+
+            const bgImageCss = getThumbnailBackgroundImageUrl(videoContainer);
+            const thumb = cb.querySelector('.brlbs-cmpnt-cb-thumbnail')
+            if (bgImageCss != null && thumb != null) {
+                thumb.style.backgroundImage = bgImageCss;
+            }
+        }
+    }
+})();
+</script><template id="brlbs-cmpnt-cb-template-elementor-recaptcha">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="elementor-recaptcha" data-borlabs-cookie-content="PHNjcmlwdD4KKGZ1bmN0aW9uKCkgewogICAgY29uc3QgZWxlbWVudG9yRm9ybSA9IGRvY3VtZW50LmN1cnJlbnRTY3JpcHQuY2xvc2VzdCgnZm9ybS5lbGVtZW50b3ItZm9ybScpOwogICAgaWYgKGVsZW1lbnRvckZvcm0gPT0gbnVsbCkgewogICAgICAgIHJldHVybjsKICAgIH0KICAgIGVsZW1lbnRvckZvcm0ucXVlcnlTZWxlY3RvckFsbCgnLmVsZW1lbnRvci1maWVsZC10eXBlLXN1Ym1pdCBidXR0b24nKS5mb3JFYWNoKGJ0biA9PiBidG4uZGlzYWJsZWQgPSBmYWxzZSk7Cn0pKCk7Cjwvc2NyaXB0Pg=="><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-elementor-recaptcha"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://waffen-bassing.de/wp-content/uploads/borlabs-cookie/1/bct-google-recaptcha-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie müssen den Inhalt von <strong>reCAPTCHA</strong> laden, um das Formular abzuschicken. Bitte beachten Sie, dass dabei Daten mit Drittanbietern ausgetauscht werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+    const template = document.querySelector("#brlbs-cmpnt-cb-template-elementor-recaptcha");
+    const divsToInsertBlocker = document.querySelectorAll('.elementor-field-type-recaptcha_v3 .elementor-field,.elementor-field-type-recaptcha .elementor-field');
+    for (const div of divsToInsertBlocker) {
+        const cb = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+        div.appendChild(cb);
+
+        const elementorForm = div.closest('form.elementor-form');
+        if (elementorForm != null) {
+            elementorForm.querySelectorAll('.elementor-field-type-submit button').forEach(btn => btn.disabled = true);
+        }
+    }
+})()
+</script><template id="brlbs-cmpnt-cb-template-facebook-content-blocker">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="facebook-content-blocker" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-facebook"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://waffen-bassing.de/wp-content/uploads/borlabs-cookie/1/cb-facebook-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>Facebook</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+        const template = document.querySelector("#brlbs-cmpnt-cb-template-facebook-content-blocker");
+        const divsToInsertBlocker = document.querySelectorAll('div.fb-video[data-href*="//www.facebook.com/"], div.fb-post[data-href*="//www.facebook.com/"]');
+        for (const div of divsToInsertBlocker) {
+            const blocked = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+            blocked.dataset.borlabsCookieContent = btoa(unescape(encodeURIComponent(div.outerHTML)));
+            div.replaceWith(blocked);
+        }
+})()
+</script><template id="brlbs-cmpnt-cb-template-instagram">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="instagram" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-instagram"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://waffen-bassing.de/wp-content/uploads/borlabs-cookie/1/cb-instagram-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>Instagram</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+    const template = document.querySelector("#brlbs-cmpnt-cb-template-instagram");
+    const divsToInsertBlocker = document.querySelectorAll('blockquote.instagram-media[data-instgrm-permalink*="instagram.com/"],blockquote.instagram-media[data-instgrm-version]');
+    for (const div of divsToInsertBlocker) {
+        const blocked = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+        blocked.dataset.borlabsCookieContent = btoa(unescape(encodeURIComponent(div.outerHTML)));
+        div.replaceWith(blocked);
+    }
+})()
+</script><template id="brlbs-cmpnt-cb-template-x-alias-twitter-content-blocker">
+ <div class="brlbs-cmpnt-container brlbs-cmpnt-content-blocker brlbs-cmpnt-with-individual-styles" data-borlabs-cookie-content-blocker-id="x-alias-twitter-content-blocker" data-borlabs-cookie-content=""><div class="brlbs-cmpnt-cb-preset-b brlbs-cmpnt-cb-x"> <div class="brlbs-cmpnt-cb-thumbnail" style="background-image: url('https://waffen-bassing.de/wp-content/uploads/borlabs-cookie/1/cb-twitter-main.png')"></div> <div class="brlbs-cmpnt-cb-main"> <div class="brlbs-cmpnt-cb-content"> <p class="brlbs-cmpnt-cb-description">Sie sehen gerade einen Platzhalterinhalt von <strong>X</strong>. Um auf den eigentlichen Inhalt zuzugreifen, klicken Sie auf die Schaltfläche unten. Bitte beachten Sie, dass dabei Daten an Drittanbieter weitergegeben werden.</p> <a class="brlbs-cmpnt-cb-provider-toggle" href="#" data-borlabs-cookie-show-provider-information role="button">Mehr Informationen</a> </div> <div class="brlbs-cmpnt-cb-buttons"> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-unblock role="button">Inhalt entsperren</a> <a class="brlbs-cmpnt-cb-btn" href="#" data-borlabs-cookie-accept-service role="button" style="display: inherit">Erforderlichen Service akzeptieren und Inhalte entsperren</a> </div> </div> </div></div>
+</template>
+<script>
+(function() {
+        const template = document.querySelector("#brlbs-cmpnt-cb-template-x-alias-twitter-content-blocker");
+        const divsToInsertBlocker = document.querySelectorAll('blockquote.twitter-tweet,blockquote.twitter-video');
+        for (const div of divsToInsertBlocker) {
+            const blocked = template.content.cloneNode(true).querySelector('.brlbs-cmpnt-container');
+            blocked.dataset.borlabsCookieContent = btoa(unescape(encodeURIComponent(div.outerHTML)));
+            div.replaceWith(blocked);
+        }
+})()
+</script></body>
+
+</html>
